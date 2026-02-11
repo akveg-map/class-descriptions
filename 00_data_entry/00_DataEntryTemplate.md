@@ -28,7 +28,7 @@
 
 ### Structure
 
-**Structural Description:** *Enter up to a single paragraph describing the typical structure of the vegetation. Avoid providing information redundant with the data summaries below.*
+**Structural Description:** This [level] *Enter up to a single paragraph describing the typical structure of the vegetation. Avoid providing information redundant with the data summaries below.*
 
 **Structural Class:** *Enter one or more structural classes from the AKVEG Data Dictionary*
 
@@ -42,19 +42,19 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** *Enter up to a single paragraph describing the diagnostic floristic traits.*
+**Floristics Description:** This [level] *Enter up to a single paragraph describing the diagnostic floristic traits.*
 
 [diagnostic_plot]
 
-Figure 2. Plot of range from 10th percentile to 90th percentile and mean for diagnostic species (and species sets) occuring in [unit_name]. Diagnostic species (sets) are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
+Figure 2. Plot of range from 10th percentile to 90th percentile and mean for diagnostic species (and species sets) occurring in [unit_name]. Diagnostic species (sets) are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
 
-Table 2. Constancy and cover table for individual taxa with constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1% occuring in [unit_name].
+Table 2. Constancy and cover table for individual taxa with constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1% occurring in [unit_name].
 
 [table_composition]
 
 [composition_plot]
 
-Figure 3. Plot of range from 25th percentile to 75th percentile and mean for individual taxa occuring in [unit_name]. Individual taxa are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
+Figure 3. Plot of range from 25th percentile to 75th percentile and mean for individual taxa occurring in [unit_name]. Individual taxa are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
 
 ## Range
 
