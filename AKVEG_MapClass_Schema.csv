@@ -15,10 +15,10 @@
 1. Temperate,coniferous tree,mesic vegetation,subalpine,14,Alaska Pacific Sitka Spruce Subalpine Woodland Mesic,alliance,M025,Vancouverian Subalpine-High Montane Forest,G850,Alaskan Mountain Hemlock Forest
 1. Temperate,coniferous tree,mesic vegetation,none,15,Alaska Pacific Subalpine Fir (-Mountain Hemlock) Forest Mesic,alliance,M025,Vancouverian Subalpine-High Montane Forest,G850,Alaskan Mountain Hemlock Forest
 1. Temperate,coniferous tree,mesic vegetation,subalpine,16,Alaska Pacific Subalpine Fir Subalpine Woodland Mesic,alliance,M025,Vancouverian Subalpine-High Montane Forest,G850,Alaskan Mountain Hemlock Forest
-1. Temperate,mixed tree,wet vegetation,none,21,Alaska Pacific Cottonwood - Sitka Spruce / Western Hemlock Riparian Forest,alliance,M035,North Pacific Forested Wetland,G852,Alaska Pacific Riparian Forest
-1. Temperate,deciduous tree,wet vegetation,none,22,Alaska Pacific Cottonwood Riparian Forest,alliance,M035,North Pacific Forested Wetland,G852,Alaska Pacific Riparian Forest
-1. Temperate,deciduous tree,wet vegetation,none,23,Alaska Pacific Red Alder Riparian Forest,alliance,M035,North Pacific Forested Wetland,G852,Alaska Pacific Riparian Forest
-1. Temperate,coniferous tree,wet vegetation,none,24,Alaska Pacific Sitka Spruce Riparian Forest,alliance,M035,North Pacific Forested Wetland,G852,Alaska Pacific Riparian Forest
+1. Temperate,mixed tree,wet vegetation,riverine,21,Alaska Pacific Cottonwood - Sitka Spruce / Western Hemlock Riparian Forest,alliance,M035,North Pacific Forested Wetland,G852,Alaska Pacific Riparian Forest
+1. Temperate,deciduous tree,wet vegetation,riverine,22,Alaska Pacific Cottonwood Riparian Forest,alliance,M035,North Pacific Forested Wetland,G852,Alaska Pacific Riparian Forest
+1. Temperate,deciduous tree,wet vegetation,riverine,23,Alaska Pacific Red Alder Riparian Forest,alliance,M035,North Pacific Forested Wetland,G852,Alaska Pacific Riparian Forest
+1. Temperate,coniferous tree,wet vegetation,riverine,24,Alaska Pacific Sitka Spruce Riparian Forest,alliance,M035,North Pacific Forested Wetland,G852,Alaska Pacific Riparian Forest
 1. Temperate,coniferous tree,wet vegetation,none,31,Alaska Pacific Sitka Spruce - Mountain Hemlock Forest Wet,alliance,M035,North Pacific Forested Wetland,G854,Alaska Pacific Swamp
 1. Temperate,coniferous tree,wet vegetation,none,32,Alaska Pacific Sitka Spruce Wet Forest,alliance,M035,North Pacific Forested Wetland,G854,Alaska Pacific Swamp
 1. Temperate,coniferous tree,wet vegetation,none,33,Alaska Pacific Western Hemlock (-Sitka Spruce) Forest Wet,,M035,North Pacific Forested Wetland,G854,Alaska Pacific Swamp
@@ -55,7 +55,7 @@
 1. Temperate,shrub,mesic vegetation,riverine,88,Alaska Pacific Willow Active Floodplain,subgroup,M558,"Alaska Pacific Marsh, Wet Meadow & Shrub Wetland",G1210,Alaska Pacific Shrub & Graminoid Floodplain
 1. Temperate,various,peatland,ombrotrophic,91,"Alaska Pacific (Dwarf Shrub) Sedge-Sphagnum Peatland, Ombrotrophic",subgroup,M559,North Pacific Bog & Acidic Fen,G284,North Pacific Open Bog & Acidic Fen
 1. Temperate,shrub,peatland,ombrotrophic,92,"Alaska Pacific Shrub-Sphagnum Peatland, Ombrotrophic",subgroup,M559,North Pacific Bog & Acidic Fen,G284,North Pacific Open Bog & Acidic Fen
-1. Temperate,coniferous tree,peatland,ombrotrophic,93,"Alaska Pacific Shore Pine - Sitka Spruce Peatland, Ombrotrophic",alliance,M559,North Pacific Bog & Acidic Fen,G610,North Pacific Maritime Wooded Bog & Poor Fen
+1. Temperate,coniferous tree,peatland,ombrotrophic,93,"Alaska Pacific Sitka Spruce (-Shore Pine) Peatland, Ombrotrophic",alliance,M559,North Pacific Bog & Acidic Fen,G610,North Pacific Maritime Wooded Bog & Poor Fen
 1. Temperate,herbaceous,peatland,minerotrophic,94,"Alaska Pacific Sedge Peatland, Minerotrophic",subgroup,M560,North Pacific Alkaline Fen,G285,North Pacific Alkaline Open Fen
 1. Temperate,shrub,peatland,minerotrophic,95,"Alaska Pacific Shrub-Sedge Peatland, Minerotrophic",subgroup,M560,North Pacific Alkaline Fen,G285,North Pacific Alkaline Open Fen
 1. Temperate,unvegetated,barren,none,100,Alaska Pacific Barren & Sparsely Vegetated,group,M887,"Western North American Cliff, Scree & Rock",G318,"North Pacific Montane Cliff, Scree & Rock"
@@ -82,7 +82,7 @@
 3. Boreal,coniferous tree,mesic vegetation,none,134,Alaska-Yukon Mixed Spruce Forest Mesic (Southern),,M156,Alaska-Yukon North American Boreal Forest,G627,Southern Alaskan Boreal Mesic Forest
 3. Boreal,mixed tree,mesic vegetation,none,135,Alaska-Yukon Mixed Spruce-Deciduous Forest Mesic (Southern),,M156,Alaska-Yukon North American Boreal Forest,G627,Southern Alaskan Boreal Mesic Forest
 3. Boreal,deciduous tree,mesic vegetation,none,136,Alaska-Yukon Poplar Forest Mesic (Southern),,M156,Alaska-Yukon North American Boreal Forest,G627,Southern Alaskan Boreal Mesic Forest
-3. Boreal,deciduous tree,mesic vegetation,burned,137,Alaska-Yukon Post-burn Birch Forest Mesic (Southern),,M156,Alaska-Yukon North American Boreal Forest,G627,Southern Alaskan Boreal Mesic Forest
+3. Boreal,deciduous tree,mesic vegetation,burned,137,Alaska-Yukon Post-burn Recovering Birch Forest Mesic (Southern),,M156,Alaska-Yukon North American Boreal Forest,G627,Southern Alaskan Boreal Mesic Forest
 3. Boreal,coniferous tree,mesic vegetation,none,138,Alaska-Yukon White Spruce Forest Mesic (Southern),,M156,Alaska-Yukon North American Boreal Forest,G627,Southern Alaskan Boreal Mesic Forest
 3. Boreal,mixed tree,mesic vegetation,none,139,Alaska-Yukon White Spruce-Aspen Forest Mesic (Southern),,M156,Alaska-Yukon North American Boreal Forest,G627,Southern Alaskan Boreal Mesic Forest
 3. Boreal,mixed tree,mesic vegetation,none,140,Alaska-Yukon White Spruce-Birch Forest Mesic (Southern),,M156,Alaska-Yukon North American Boreal Forest,G627,Southern Alaskan Boreal Mesic Forest
@@ -123,6 +123,9 @@
 3. Boreal,coniferous tree,mesic vegetation,riverine,212,Alaska-Yukon White Spruce Active Floodplain,,M300,North American Boreal Flooded & Rich Swamp Forest,G548,Alaska-Yukon Boreal Floodplain Forest
 3. Boreal,deciduous tree,mesic vegetation,riverine,213,Birch (-White Spruce) Active Floodplain,,M300,North American Boreal Flooded & Rich Swamp Forest,G548,Alaska-Yukon Boreal Floodplain Forest
 3. Boreal,deciduous tree,mesic vegetation,riverine,214,Poplar (-White Spruce) Active Floodplain,,M300,North American Boreal Flooded & Rich Swamp Forest,G548,Alaska-Yukon Boreal Floodplain Forest
+3. Boreal,coniferous tree,wet vegetation,none,215,Alaska-Yukon White Spruce Forest Wet,,M299,North American Boreal Conifer Poor Swamp,none,none
+3. Boreal,coniferous tree,wet vegetation,ombrotrophic,216,"Alaska-Yukon White Spruce Peatland, Ombrotrophic",,M876,North American Boreal & Subboreal Bog & Acidic Fen,G360,Western Boreal Bog & Acidic Fen
+3. Boreal,coniferous tree,wet vegetation,none,217,Alaska-Yukon Tamarack (-Black Spruce) Peatland,,M876,North American Boreal & Subboreal Bog & Acidic Fen,G360,Western Boreal Bog & Acidic Fen
 3. Boreal,shrub,mesic vegetation,riverine,221,Alaska-Yukon Alder-Willow Active Floodplain,,M894,"North American Boreal Marsh, Wet Meadow & Shrubland",G1194,Western Boreal Shrub & Graminoid Floodplain
 3. Boreal,shrub,mesic vegetation,riverine,222,Alaska-Yukon Willow Active Floodplain,,M894,"North American Boreal Marsh, Wet Meadow & Shrubland",G1194,Western Boreal Shrub & Graminoid Floodplain
 3. Boreal,herbaceous,mesic vegetation,riverine,223,Alaska-Yukon Herbaceous Active Floodplain,,M894,"North American Boreal Marsh, Wet Meadow & Shrubland",G1194,Western Boreal Shrub & Graminoid Floodplain
@@ -176,3 +179,4 @@
 6. Abiotic,unvegetated,other,none,997,Permanent Snow / Ice,none,none,none,none,none
 6. Abiotic,unvegetated,other,none,998,Persistent Water,none,none,none,none,none
 6. Abiotic,unvegetated,other,burned,999,Recently Burned (≤ 5 Years),none,none,none,none,none
+,,,,,,,,,,
