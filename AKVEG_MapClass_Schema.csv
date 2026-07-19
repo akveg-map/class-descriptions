@@ -20,7 +20,7 @@
 1. Temperate,deciduous tree,wet vegetation,riverine,23,Alaska Pacific Red Alder Riparian Forest,alliance,M035,North Pacific Forested Wetland,G852,Alaska Pacific Riparian Forest
 1. Temperate,coniferous tree,wet vegetation,riverine,24,Alaska Pacific Sitka Spruce Riparian Forest,alliance,M035,North Pacific Forested Wetland,G852,Alaska Pacific Riparian Forest
 1. Temperate,coniferous tree,wet vegetation,none,31,Alaska Pacific Sitka Spruce - Mountain Hemlock Forest Wet,alliance,M035,North Pacific Forested Wetland,G854,Alaska Pacific Swamp
-1. Temperate,coniferous tree,wet vegetation,none,32,Alaska Pacific Sitka Spruce Wet Forest,alliance,M035,North Pacific Forested Wetland,G854,Alaska Pacific Swamp
+1. Temperate,coniferous tree,wet vegetation,none,32,Alaska Pacific Sitka Spruce Forest Wet,alliance,M035,North Pacific Forested Wetland,G854,Alaska Pacific Swamp
 1. Temperate,coniferous tree,wet vegetation,none,33,Alaska Pacific Western Hemlock (-Sitka Spruce) Forest Wet,,M035,North Pacific Forested Wetland,G854,Alaska Pacific Swamp
 1. Temperate,coniferous tree,wet vegetation,none,34,Alaska Pacific Yellow Cedar (-Western Hemlock / Mountain Hemlock) Forest Wet,alliance,M035,North Pacific Forested Wetland,G854,Alaska Pacific Swamp
 1. Temperate,unvegetated,barren,coastal,41,Alaska Pacific Coastal & Estuarine Barren,subgroup,M059,Pacific Coastal Beach & Dune,G498,North Pacific Maritime Dune & Coastal Beach
@@ -37,7 +37,7 @@
 1. Temperate,shrub,mesic vegetation,none,63,Alaska Pacific Ericaceous (-Birch) Shrub Mesic,subgroup,M172,North Pacific Coastal Lowland-Montane Grassland & Shrubland,G354,Alaska Pacific Alder - Salmonberry - Willow Shrubland
 1. Temperate,shrub,mesic vegetation,none,64,Alaska Pacific Salmonberry Mesic,subgroup,M172,North Pacific Coastal Lowland-Montane Grassland & Shrubland,G354,Alaska Pacific Alder - Salmonberry - Willow Shrubland
 1. Temperate,shrub,mesic vegetation,none,65,Alaska Pacific Willow Mesic,subgroup,M172,North Pacific Coastal Lowland-Montane Grassland & Shrubland,G354,Alaska Pacific Alder - Salmonberry - Willow Shrubland
-1. Temperate,shrub,dry vegetation,none,66,Alaska Pacific Shrub Dry,subgroup,M172,North Pacific Coastal Lowland-Montane Grassland & Shrubland,G354,Alaska Pacific Alder - Salmonberry - Willow Shrubland
+1. Temperate,shrub,dry vegetation,none,66,Alaska Pacific Shrub Dry,omit,M172,North Pacific Coastal Lowland-Montane Grassland & Shrubland,G354,Alaska Pacific Alder - Salmonberry - Willow Shrubland
 1. Temperate,herbaceous,mesic vegetation,none,71,Alaska Pacific Calamagrostis - Forb Herbaceous Mesic,subgroup,M172,North Pacific Coastal Lowland-Montane Grassland & Shrubland,G355,Alaska Pacific Grassland & Meadow
 1. Temperate,herbaceous,mesic vegetation,none,72,Alaska Pacific Forb (-Fern) Herbaceous Mesic,subgroup,M172,North Pacific Coastal Lowland-Montane Grassland & Shrubland,G355,Alaska Pacific Grassland & Meadow
 1. Temperate,herbaceous,wet vegetation,none,73,Alaska Pacific Calamagrostis - Sedge Wet Meadow (Mineral/Riverine),subgroup,M558,"Alaska Pacific Marsh, Wet Meadow & Shrub Wetland",G1208,Alaska Pacific Marsh & Wet Meadow
@@ -94,7 +94,7 @@
 3. Boreal,coniferous tree,mesic vegetation,none,155,Alaska-Yukon White Spruce Woodland Mesic,,M179,North American Northern Boreal Woodland,G1195,Alaska-Yukon Northern & Montane Boreal Mesic Woodland
 3. Boreal,deciduous tree,steppe bluff,none,161,Alaska-Yukon Aspen Dry Woodland / Steppe Bluff,,M179,North American Northern Boreal Woodland,G349,Alaskan Boreal Dry Woodland
 3. Boreal,deciduous tree,mesic vegetation,none,162,Alaska-Yukon Aspen Forest Mesic (Successional),,M179,North American Northern Boreal Woodland,G349,Alaskan Boreal Dry Woodland
-3. Boreal,deciduous tree,mesic vegetation,burned,163,Alaska-Yukon Post-burn Aspen Forest Mesic,,M179,North American Northern Boreal Woodland,G349,Alaskan Boreal Dry Woodland
+3. Boreal,deciduous tree,mesic vegetation,burned,163,Alaska-Yukon Post-burn Recovering Aspen Forest Mesic,,M179,North American Northern Boreal Woodland,G349,Alaskan Boreal Dry Woodland
 3. Boreal,dwarf shrub,mesic vegetation,none,171,Alaska-Yukon Dryas-Ericaceous Dwarf Shrub,,M404,Western Boreal Alpine Tundra,G613,Western Boreal Alpine Dwarf-shrubland
 3. Boreal,dwarf shrub,mesic vegetation,none,172,Alaska-Yukon Dryas-Willow Dwarf Shrub,,M404,Western Boreal Alpine Tundra,G613,Western Boreal Alpine Dwarf-shrubland
 3. Boreal,dwarf shrub,mesic vegetation,none,173,Alaska-Yukon Dwarf Shrub-Lichen,,M404,Western Boreal Alpine Tundra,G613,Western Boreal Alpine Dwarf-shrubland
@@ -103,9 +103,9 @@
 3. Boreal,unvegetated,barren,alpine,176,Alaska-Yukon Alpine Barren & Sparsely Vegetated,group,M404,Western Boreal Alpine Tundra,G785,"Western Boreal Alpine Cliff, Scree & Rock"
 3. Boreal,shrub,mesic vegetation,none,181,Alaska-Yukon Alder Mesic,,M537,North American Boreal Shrubland & Grassland,G1196,Western Boreal Mesic Alder - Willow Shrubland
 3. Boreal,shrub,mesic vegetation,none,182,Alaska-Yukon Alder-Willow Mesic,,M537,North American Boreal Shrubland & Grassland,G1196,Western Boreal Mesic Alder - Willow Shrubland
-3. Boreal,shrub,mesic vegetation,none,183,Alaska-Yukon Birch(-Ericaceous) Mesic,,M537,North American Boreal Shrubland & Grassland,G356,Western Boreal Mesic Birch - Willow Shrubland
+3. Boreal,shrub,mesic vegetation,none,183,Alaska-Yukon Ericaceous (-Birch) Mesic,,M537,North American Boreal Shrubland & Grassland,G356,Western Boreal Mesic Birch - Willow Shrubland
 3. Boreal,shrub,mesic vegetation,none,184,Alaska-Yukon Birch-Willow Mesic,,M537,North American Boreal Shrubland & Grassland,G356,Western Boreal Mesic Birch - Willow Shrubland
-3. Boreal,shrub,mesic vegetation,burned,185,Alaska-Yukon Post-burn Birch-Willow Mesic,,M537,North American Boreal Shrubland & Grassland,G356,Western Boreal Mesic Birch - Willow Shrubland
+3. Boreal,shrub,mesic vegetation,burned,185,Alaska-Yukon Post-burn Recovering Birch-Willow Mesic,,M537,North American Boreal Shrubland & Grassland,G356,Western Boreal Mesic Birch - Willow Shrubland
 3. Boreal,shrub,mesic vegetation,none,186,Alaska-Yukon Willow Mesic,,M537,North American Boreal Shrubland & Grassland,G356,Western Boreal Mesic Birch - Willow Shrubland
 3. Boreal,herbaceous,mesic vegetation,none,191,Alaska-Yukon Calamagrostis-Forb Meadow Mesic,,M537,North American Boreal Shrubland & Grassland,G358,Western Boreal Mesic Grassland & Meadow
 3. Boreal,herbaceous,mesic vegetation,none,192,Alaska-Yukon Forb-Graminoid Meadow Mesic Acidic,,M537,North American Boreal Shrubland & Grassland,G358,Western Boreal Mesic Grassland & Meadow
@@ -138,7 +138,7 @@
 3. Boreal,shrub,wet vegetation,none,241,Alaska-Yukon Birch-Willow Wet,subgroup,M894,"North American Boreal Marsh, Wet Meadow & Shrubland",G865,Western Boreal Wet Birch - Willow Low Shrubland
 3. Boreal,shrub,wet vegetation,none,242,Alaska-Yukon Willow Wet,subgroup,M894,"North American Boreal Marsh, Wet Meadow & Shrubland",G865,Western Boreal Wet Birch - Willow Low Shrubland
 3. Boreal,shrub,wet vegetation,none,243,Alaska-Yukon Alder-Willow Wet,group,M894,"North American Boreal Marsh, Wet Meadow & Shrubland",G866,Western Boreal Wet Alder - Willow Tall Shrub Swamp
-3. Boreal,shrub,wet vegetation,burned,244,Alaska-Yukon Recent Burn Recovering Birch-Willow Wet,,M537,North American Boreal Shrubland & Grassland,G865,Western Boreal Wet Birch - Willow Low Shrubland
+3. Boreal,shrub,wet vegetation,burned,244,Alaska-Yukon Post-Burn Recovering Birch-Willow Wet,,M537,North American Boreal Shrubland & Grassland,G865,Western Boreal Wet Birch - Willow Low Shrubland
 3. Boreal,unvegetated,barren,none,250,Alaska-Yukon Barren & Sparsely Vegetated,group,M895,"North American Boreal Cliff, Scree & Rock",G822,"Western Boreal Cliff, Scree & Rock"
 4. Arctic,various,complex,none,252,Arctic Non-Tussock Polygonal Complex,complex,complex,complex,complex,complex
 4. Arctic,various,complex,none,254,Arctic Tussock Tundra Polygonal Complex,complex,complex,complex,complex,complex
@@ -158,6 +158,7 @@
 4. Arctic,shrub,mesic vegetation,none,291,Arctic Alder (-Willow) Shrub Mesic,subgroup,M173,Arctic Dry-Moist Tundra,G897,Arctic Low Shrub Tundra
 4. Arctic,shrub,mesic vegetation,none,292,Arctic Birch (-Willow) Shrub Mesic,subgroup,M173,Arctic Dry-Moist Tundra,G897,Arctic Low Shrub Tundra
 4. Arctic,shrub,mesic vegetation,none,293,Arctic Willow Low Shrub Mesic,subgroup,M173,Arctic Dry-Moist Tundra,G897,Arctic Low Shrub Tundra
+4. Arctic,shrub,mesic vegetation,none,294,Arctic Ericaceous (-Birch) Lichen Tundra,none,M173,Arctic Dry-Moist Tundra,,
 4. Arctic,NULL,NULL,NULL,301,Arctic Coastal Rocky Shore,omit,M402,North American Arctic Coastal Shore,G611,Arctic Coastal Rocky Shore
 4. Arctic,unvegetated,barren,coastal,302,Arctic Coastal & Estuarine Barren,alliance,M402,North American Arctic Coastal Shore,G864,Arctic Coastal Dune & Beach
 4. Arctic,herbaceous,beach,coastal,303,Arctic Herbaceous Coastal Dune & Beach,group,M402,North American Arctic Coastal Shore,G864,Arctic Coastal Dune & Beach
@@ -179,4 +180,3 @@
 6. Abiotic,unvegetated,other,none,997,Permanent Snow / Ice,none,none,none,none,none
 6. Abiotic,unvegetated,other,none,998,Persistent Water,none,none,none,none,none
 6. Abiotic,unvegetated,other,burned,999,Recently Burned (≤ 5 Years),none,none,none,none,none
-,,,,,,,,,,
