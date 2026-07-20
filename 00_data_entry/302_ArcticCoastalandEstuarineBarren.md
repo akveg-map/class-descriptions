@@ -8,9 +8,9 @@
 
 **Code:** 302
 
-**Concept:** This [level] encompasses barren to sparsely vegetated, tidally-influenced mudflats and sandy beaches, and coastal cliffs and dunes exposed to salt spray.  
+**Concept:** This [level] encompasses barren to sparsely vegetated, tidally-influenced mudflats and sandy beaches, and coastal dunes exposed to salt spray.  Depending on the degree of tidal influence, vegetation may may include matted algae, halophytic grasses in the *Puccinellia* genus and succulent forbs or *Leymus mollis*, a dune grass that is tolerant of salt spray. Frequent disturbance by rafted ice, waves, and wind retard the establishment and growth of vegetation.
 
-**Photos:** *Enter a comma separated list of three to five representative photos. Use the photo file path or server url.*
+**Photos:** [arcticmc_016.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\302_CoastalEstuarineBarrens\arcticmc_016.jpg"), [arcticmc_023.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\302_CoastalEstuarineBarrens\arcticmc_023.jpg"), [arcticmc_013.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\302_CoastalEstuarineBarrens\arcticmc_013.jpg")
 
 ## Placement in AKNVC Hierarchy
 
@@ -26,7 +26,7 @@
 
 ### Structure
 
-**Structural Description:** This [level] ranges from barren to supporting sparse growth of matted algae and low-stature halophytic plants. Woody and nonvascular species are absent.
+**Structural Description:** This [level] ranges from barren substrates to those supporting a sparse growth of matted algae and/or low-stature halophytic plants. Woody and nonvascular species are absent.
 
 **Structural Class:** barrens or partially vegetated
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] supports highly discontinuous and isolated patches of the stoloniferous grass *Puccinellia phryganodes* (common) or *Puccinellia andersonii* (uncommon) and/or succulent forbs such as *Stellaria humifusa* and *Cochlearia groenlandica*. Coastal dunes may support stands of the rhizomatous grass, *Leymus mollis*.
+**Floristics Description:** Where vegetated, estuarine barrens support highly discontinuous or isolated patches of matted algae, the stoloniferous grass *Puccinellia phryganodes* (common), *Puccinellia andersonii* (uncommon), and/or succulent forbs such as *Stellaria humifusa* and *Cochlearia groenlandica.* Coastal dunes may support isolated stands of the rhizomatous grass *Leymus mollis*. 
 
 [diagnostic_plot]
 
@@ -54,13 +54,19 @@ Table 2. Constancy and cover table for individual taxa with constancy >= 25% and
 
 Figure 3. Plot of range from 25th percentile to 75th percentile and mean for individual taxa occurring in [unit_name]. Individual taxa are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
 
+## Dynamics
+
+**Dynamics Description:** Sites in the intertidal zone experience regular inundation by saline water; sites located in the supratidal zone are subject to salt spray and storm surge. Wind, water, and ice are the driving forces of coastal disturbance. Seasonally high tides coupled with storm events can build surges of marine water that reach above normal elevations and beyond inland extents of mean tides. Such high-energy events can result in the rapid erosion and redeposition of coastal sediment, which may truncate the seaward expansion of barrens. To a lesser, more localized extent, rafted ice may scour coastlines and push sediment.
+
 ## Range
+
+**Range Description:** Occurring along coastlines throughout the Arctic bioclimatic zone.
 
 **Rarity on Landscape:** Common
 
 ## Environment
 
-**Environment Description**: Coastal and estuarine barrens develop on tidally-influenced mudflats and sandy beaches, and coastal cliffs and dunes exposed to salt spray. Soils range from poorly-drained, very fine sands and silty clays on tidally-influenced substrates, to fine to coarse sands on coastal beaches and dunes, to cobble and bedrock on coastal cliffs. On tidal substrates, permafrost tends to be deep due to the proximity of the ocean and the heat-retaining capacity of large bodies of water. A permafrost thermal regime may exist for beaches, dunes, and cliffs, but ice-rich permafrost does not develop due to the drainage imparted by sand and cobble. Frequent disturbance by waves and/or wind retards the establishment and growth of vegetation. While matted algae may be present on mudflats, macroalgae (seaweed) presumably does not establish due to a lack of rocky substrate and slit-laded nearshore waters, which limit the penetration of light.
+**Environment Description**: Coastal and estuarine barrens develop on coastal mudflats, beaches, and dunes. Soils range from poorly-drained, very fine sands and silty clays on tidally-influenced substrates, to fine to coarse sands on coastal beaches and dunes. On tidal substrates, permafrost tends to be deep due to the proximity of the ocean and the heat-retaining capacity of large bodies of water. A permafrost thermal regime may exist for beaches and dunes, but ice-rich permafrost does not develop due to the drainage imparted by sands. While matted algae may be present on mudflats, macroalgae (seaweed) presumably does not establish due to a lack of rocky substrate and slit-laded nearshore waters, which limit the penetration of light.
 
 **Physiography:** [physiography_text]
 
@@ -84,15 +90,15 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 ## Metadata
 
-**Map Version**: *Enter the version of the map that this description is current with.*
+**Map Version**: *3.0*
 
 **Described By:** Lindsey A. Flagstad, Rhiannon C. Glover
 
 **Date:** 2026-05-14
 
-**Last Revised by:** *Enter the name (First Middle Initial Last) of the latest revision author(s).*
+**Last Revised by:** Lindsey A. Flagstad
 
-**Date:** *Enter the date (yyyy-mm-dd) of the revision.*
+**Date:** 2026-07-13
 
 ## References
 

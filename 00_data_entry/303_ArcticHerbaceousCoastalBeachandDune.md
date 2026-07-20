@@ -8,9 +8,9 @@
 
 **Code:** 303
 
-**Concept:** This [level] encompasses herbaceous meadows developing on coastal beach berms and dunes that are exposed to salt-spray but are not tidally influenced.  
+**Concept:** This [level] encompasses herbaceous meadows developing on coastal beaches and dunes that are exposed to salt-spray, but are not tidally influenced. The type is indicated by the grass *Leymus mollis* often in combination with the forbs *Honckenya peploides* and *Mertensia maritima.* Erosion by wind and water maintains sites in an early successional state. 
 
-**Photos:** *Enter a comma separated list of three to five representative photos. Use the photo file path or server url.*
+**Photos:** [arcticmc_033_Nunivak.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\303_HerbShrubCoastalDune\arcticmc_033_Nunivak.jpg"), [arcticmc_035_Nunivak.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\303_HerbShrubCoastalDune\arcticmc_035_Nunivak_coastaldunes.jpg"), [SSMT53_aer4.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\303_HerbShrubCoastalDune\SSMT53_aer4.JPG")
 
 ## Placement in AKNVC Hierarchy
 
@@ -26,7 +26,7 @@
 
 ### Structure
 
-**Structural Description:** This [level] is dominated by grasses and forbs that can tolerate salt-spray and shifting sediments. Common adaptations to mesohaline conditions and mobile substrates include succulence and rhizomatous root forms. Sedges and prostrate shrubs may occur in low abundance.
+**Structural Description:** This [level] is dominated by grasses and forbs that can tolerate salt-spray and shifting sediments. Common adaptations to mesohaline conditions and mobile substrates include succulence and rhizomatous root forms. Sedges and prostrate shrubs may occur in low abundance. Nonvascular species are typically absent.
 
 **Structural Class:** grass meadow, forb meadow
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is dominated by the beach grass, *Leymus mollis* often in combination with the forbs *Honckenya peploides* and *Mertensia maritima*. The forb *Cnidium cnidiifolium* and graminoids such as *Festuca rubra*, *Carex ursina*, and *Calamagrostis deschampsioides*, and the prostrate shrub *Salix ovalifolia* may establish at low cover on more stable sections of the dunes. 
+**Floristics Description:** This [level] is dominated by the grass, *Leymus mollis* often in combination with the forbs *Honckenya peploides* and *Mertensia maritima*. Graminoids such as *Festuca rubra*, *Carex ursina*, and *Calamagrostis deschampsioides*, and the prostrate shrub *Salix ovalifolia* may establish at low cover on more stable sections of the dunes. 
 
 [diagnostic_plot]
 
@@ -54,15 +54,19 @@ Table 2. Constancy and cover table for individual taxa with constancy >= 25% and
 
 Figure 3. Plot of range from 25th percentile to 75th percentile and mean for individual taxa occurring in [unit_name]. Individual taxa are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
 
+## Dynamics
+
+**Dynamics Description:** This is a ruderal type held in an early-successional state by frequent coastal disturbance. During snow- and ice-free periods, sites are exposed to erosion by wind, water, and rafted ice. Seasonally high tides coupled with storm events can build surges of marine water that reach above normal elevations and beyond inland extents of mean tides. These storm surge events can flood sites, scour vegetation, and erode sand redeposit large volumes of sediment.
+
 ## Range
 
-**Range Description:** Common on coastlines throughout the Arctic bioclimatic zone.
+**Range Description:** Occurring on coastlines throughout the Arctic bioclimatic zone.
 
-**Rarity on Landscape:** Common
+**Rarity on Landscape:** Uncommon
 
 ## Environment
 
-**Environment Description:** This class develops on coastal beach berms and dunes along the mainland coast as well as barrier islands and spits. Soils are well- to excessively well-drained sands. Sites are above the reach of maximum high tide but subject to wind-blown salt spray and occasional inundation by storm surges. This is a ruderal type held in an early-successional state by frequent disturbance. During snow- and ice-free periods, sites are fully exposed to coastal processes, especially erosion by wind and water. 
+**Environment Description:** This [level] develops on coastal beaches and dunes along the mainland coast as well as barrier islands and spits. Soils are well- to excessively well-drained sands. Sites are above the reach of maximum high tide but subject to wind-blown salt spray and occasional inundation by storm surges. 
 
 **Physiography:** [physiography_text]
 
@@ -86,7 +90,7 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 ## Metadata
 
-**Map Version**: 2.0
+**Map Version**: 3.0
 
 **Described By:** Lindsey Flagstad, Keith Boggs
 
@@ -94,7 +98,7 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 **Last Revised by:** Lindsey A. Flagstad, Rhiannon C. Glover
 
-**Date:** 2026-05-14
+**Date:** 2026-07-13
 
 ## References
 

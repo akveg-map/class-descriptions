@@ -8,9 +8,9 @@
 
 **Code:** 284
 
-**Concept:** This [level] encompasses mesic tundra dominated by dwarf to low ericaceous shrubs often mixed with dwarf willow and *Dryas* shrubs, as well as abundant lichens and mosses.
+**Concept:** This [level] encompasses mesic tundra dominated by dwarf to low ericaceous shrubs often mixed with dwarf willow and *Dryas* shrubs, as well as abundant lichens and mosses. The type ranges from wind exposed, low stature communities to lush vegetation in protected, lowland sites.
 
-**Photos:** *Enter a comma separated list of three to five representative photos. Use the photo file path or server url.*
+**Photos:** [NPRA2015_ADST63_T3.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\284_EricaceousDwShrub\NPRA2015_ADST63_T3.JPG"), [NPRA2015_ADST67_veg1.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\284_EricaceousDwShrub\NPRA2015_ADST67_veg1.JPG"), [NPRA2015_ADST65_veg7.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\284_EricaceousDwShrub\NPRA2015_ADST65_veg7.JPG")
 
 ## Placement in AKNVC Hierarchy
 
@@ -54,13 +54,19 @@ Table 2. Constancy and cover table for individual taxa with constancy >= 25% and
 
 Figure 3. Plot of range from 25th percentile to 75th percentile and mean for individual taxa occurring in [unit_name]. Individual taxa are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
 
+## Dynamics
+
+**Dynamics Description:** Wind and the varible retetion of snow direct the stature and extext of the type at elevation. More exposed sites are susceptible to mass wasting events such as landslides and avalanches. Sites underlain by ice rich permafrost experience surficial disturbances such as frost boils and scars.
+
 ## Range
+
+**Range Description:** Occurring across the Arctic bioclimatic zone, broadly associated with the Brooks Range Foothills.
 
 **Rarity on Landscape:** Common
 
 ## Environment
 
-**Environment Description**: Ericaceous Dwarf Shrub occurs in upland and lowland physiography located between the coastal zone and latitudinal tree line. This type develops continuous and lush vegetation on sites that are protected from the wind and retain snow such as valleys, north-facing slopes, and meadows. These sites are often underlain by ice-rich permafrost, resulting in surficial disturbances such as frost boils and scars. At higher elevations, this class develops discontinuous and lower stature vegetation in more wind exposed sites such as talus and scree slopes and concave microtopography along summits and ridges. Soils of these sites are well to excessively well-drained and range from acidic to circumneutral. These more exposed sites are susceptible to mass wasting events such as landslides and avalanches. 
+**Environment Description**: The [unit_name] type occurs in upland and lowland physiography located between the coastal zone and latitudinal tree line. This type develops continuous and lush vegetation on sites that are protected from the wind and retain snow such as valleys, north-facing slopes, and meadows. These lowland sites are underlain by ice-rich permafrost. At higher elevations, this class develops discontinuous and lower stature vegetation in more wind exposed sites such as talus and scree slopes and concave microtopography along summits and ridges. Soils of these sites are well to excessively well-drained and range from acidic to circumneutral. 
 
 **Physiography:** [physiography_text]
 
@@ -84,9 +90,9 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 ## Metadata
 
-**Map Version**: *Enter the version of the map that this description is current with.*
+**Map Version**: 3.0
 
-**Described By:** Lindsey A. Flagstad, Keith Boggs
+**Described By:** Lindsey A. Flagstad, Keith W. Boggs
 
 **Date:** 2016-01-19
 

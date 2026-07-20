@@ -10,7 +10,7 @@
 
 **Concept:** This [level] encompasses mesic tundra vegetation on exposed, windswept areas, dominated or co-dominated by *Dryas* species and dwarf willow shrubs.
 
-**Photos:** *Enter a comma separated list of three to five representative photos. Use the photo file path or server url.*
+**Photos:** [NPRA2015_ADST65_T1a.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\283_DryasWillowDwShrub\NPRA2015_ADST65_T1a.JPG"), [NPRA_ADST-72_T2_20170728.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\283_DryasWillowDwShrub\NPRA_ADST-72_T2_20170728.JPG"), [ADST21_veg2.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\283_DryasWillowDwShrub\ADST21_veg2.JPG"), [NPRA_ADST-72_General01_20170728]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\283_DryasWillowDwShrub\NPRA_ADST-72_General01_20170728.JPG")
 
 ## Placement in AKNVC Hierarchy
 
@@ -54,13 +54,19 @@ Table 2. Constancy and cover table for individual taxa with constancy >= 25% and
 
 Figure 3. Plot of range from 25th percentile to 75th percentile and mean for individual taxa occurring in [unit_name]. Individual taxa are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
 
+## Dynamics
+
+**Dynamics Description:** This is a late-successional type where the development of vegetation is controlled by the climatic factors of cold winter temperatures and intense summer solar radiation and may be reset by site factors such as exposure to desiccating winds, avalanche, and colluvial processes. Permafrost is present, but ice-poor, thus perigacial processes are relatively inactive. 
+
 ## Range
 
-**Rarity on Landscape:** Common
+**Range Description:** Occurring on floodplains throughout the Arctic bioclimatic zone.
+
+**Rarity on Landscape:** Uncommon
 
 ## Environment
 
-**Environment Description**: Dryas Dwarf Shrub occurs on exposed, windswept areas with little winter snow cover that are underlain by continuous permafrost. This type occupies upland and lowland physiography located between the coastal zone and latitudinal tree line. *Dryas ajanensis*-dominated types are commonly associated with uplands and ridges, as well as on acidic to neutral, organic substrates in lowlands. Sites dominated by *Dryas integrifolia* are more common at higher latitudes and neutral to alkaline, mineral substrates. Where species co-occur, *Dryas ajanensis* occupies drier, more exposed microsites and *Dryas integrifolia* occupies wetter, more protected microsites, such as swales or between hummocks. 
+**Environment Description**: The [unit_name} type occurs on exposed, windswept areas with little winter snow cover that are underlain by continuous permafrost. This type occupies upland and lowland physiography located between the coastal zone and latitudinal tree line. *Dryas ajanensis*-dominated types are commonly associated with uplands and ridges, as well as on acidic to neutral, organic substrates in lowlands. Sites dominated by *Dryas integrifolia* are more common at higher latitudes and neutral to alkaline, mineral substrates. Where species co-occur, *Dryas ajanensis* occupies drier, more exposed microsites and *Dryas integrifolia* occupies wetter, more protected microsites, such as swales or between hummocks. 
 
 **Physiography:** [physiography_text]
 
@@ -84,7 +90,7 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 ## Metadata
 
-**Map Version**: *Enter the version of the map that this description is current with.*
+**Map Version**: 3.0
 
 **Described By:** Lindsey A. Flagstad, Keith Boggs
 

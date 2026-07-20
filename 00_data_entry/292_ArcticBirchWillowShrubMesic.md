@@ -8,9 +8,9 @@
 
 **Code:** 292
 
-**Concept:** This [level] encompasses mesic to moist, dwarf- to low shrublands where *Betula nana* dominates or co-dominates with willows.
+**Concept:** This [level] encompasses mesic to moist, dwarf- to low shrublands where *Betula nana* dominates or co-dominates with willows. Soils are highly organic and permafrost is shallow and ice-rich.
 
-**Photos:** *Enter a comma separated list of three to five representative photos. Use the photo file path or server url.*
+**Photos:** [NPRA2015_FLST66_T2.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\292_BirchShrubMesic\NPRA2015_FLST66_T2.JPG"), [FLST34_t2a.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\292_BirchShrubMesic\FLST34_t2a.JPG"), [NPRA_FLST-75_Soil1_20170722.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\292_BirchShrubMesic\NPRA_FLST-75_Soil1_20170722.JPG")
 
 ## Placement in AKNVC Hierarchy
 
@@ -26,7 +26,7 @@
 
 ### Structure
 
-**Structural Description:** This [level] is dominated by broad-leaved deciduous low or prostrate shrubs. Lichens and bryophytes are common and abundant.
+**Structural Description:** This [level] is dominated by broad-leaved deciduous low or prostrate shrubs. Lichens and bryophytes are common and abundant. 
 
 **Structural Class:** low shrub
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is dominated *Betula nana* in low or prostrate growth form, and *Salix* species. Highly constant willows include *Salix pulchra*, *Salix richardsonii*, and *Salix glauca*. Dwarf or prostrate shrubs, such as *Rhododendron tomentosum* ssp. *decumbens*, *Vaccinium uliginosum*, and *Vaccinium vitis-idaea*, commonly occur in the understory in high abundance. While herbaceous species make up sparse cover, *Anthoxanthem monticola* ssp. *alpinum* have high constancy in montane sites, while sedges such as, *Eriophorum* species or *Carex* species replace it on lower Coastal Plain sites. Common non-vasculars include the mosses *Hylocomium splendens*, *Sphagnum* species, *Aulacomnium* species, and *Polytrichum* species, and fruticose lichens of the genus *Cladonia*.
+**Floristics Description:** This [level] is codominated by *Betula nana* and either *Salix pulchra* or *Salix glauca* in the low shrub layer. Dwarf or prostrate shrubs, such as *Rhododendron tomentosum* ssp. *decumbens*, *Vaccinium uliginosum*, *Vaccinium vitis-idaea*, *Cassiope tetragona*, and *Empetrum nigurm* commonly occur in the understory in high abundance. While herbaceous species make up sparse cover, *Poa arctica*, *Saussurea angustifolia*, *Polygonum bistorta* ssp. *plumosa*, *Pedicularis capitata*, and *Saxifraga punctata* show high constancy. The most common and abundant bryophytes include *Hylocomium splendens*, *Aulacomnium turgidum*, and *Rhytidium rugosum* with *Spahgnum* mosses increasing abundance on wetter sites. Common lichens are *Flavocetraria cucullata* and *Thamnolia vermicularis*. 
 
 [diagnostic_plot]
 
@@ -54,15 +54,19 @@ Table 2. Constancy and cover table for individual taxa with constancy >= 25% and
 
 Figure 3. Plot of range from 25th percentile to 75th percentile and mean for individual taxa occurring in [unit_name]. Individual taxa are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
 
+## Dynamics
+
+**Dynamics Description:** The [unit_name] type is fairly stable. Change in site hydrology is the most likely driver of successional change with drying promoting the development of tussocks and wetting promoting the development of a wet sedge understory. Sites are not associated with riparian flooding.
+
 ## Range
 
-**Range Description:** Common throughout subzone E of the Arctic bioclimatic zone on sideslopes and ridges in the Brooks Range foothills and on the Arctic Coastal Plain.
+**Range Description:** Common across the Arctic bioclimatic zone, especially in the Brooks Range Foothills and on the Arctic Coastal Plain.
 
-**Rarity on Landscape:** Common
+**Rarity on Landscape:** Ubiquitous
 
 ## Environment
 
-**Environment Description:** This class often occurs on peatlands on wetter lowlands and on moist, well-drained upland surfaces throughout the low arctic bioclimatic zones. On uplands, it occupies mesic to moist sideslopes, hillslopes, and ridges. In lowlands, it often occurs on high-centered polygons, drained lake basins, and terraces where *Sphagnum* mosses may replace feathermosses.  Soils are acidic to circumneutral and well-drained, with a thin or moderately thick surface organic horizon. Permafrost is typically present beneath sites.
+**Environment Description:** This class often occurs on peatlands on wetter lowlands and in moist, well-drained upland settings. On uplands, it occupies mesic to moist sideslopes, hillslopes, and ridges. In lowlands, it often occurs on high-centered polygons, drained lake basins, and terraces.  Soils are acidic to circumneutral and well-drained, with a thin or moderately thick surface organic horizon. Permafrost is ice rich and shallow.
 
 **Physiography:** [physiography_text]
 
@@ -86,7 +90,7 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 ## Metadata
 
-**Map Version**: 2.0
+**Map Version**: 3.0
 
 **Described By:** Tina Boucher, Keith Boggs, M. Hall
 

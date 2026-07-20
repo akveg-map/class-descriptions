@@ -8,9 +8,9 @@
 
 **Code:** 306
 
-**Concept:** This [level] encompasses vegetated, tidally-influenced areas that are dominated by combinations of stoloniferous or rhizomatous graminoids and succulent forbs with high tolerance to inundation and salinity.
+**Concept:** This [level] encompasses vegetated, tidally-influenced areas that are dominated by combinations of stoloniferous or rhizomatous graminoids and succulent forbs with high tolerance to inundation and salinity. Marshes with direct exposure to the ocean are indicated by combinations of *Puccinellia phryganodes, Stellaria humifusa* and *Cochlearia groenlandica*, with the occurrence of *Carex subspathacea* increasing landward. More protected estuaries are characterized by patchy monocultures of *Arctophila fulva, Dupontia fisheri*, *Carex ramenskii*, and *Hippuris tetraphylla.* In addition to regular tidal inundation, sites are exposed to disturbance by wind, water, and rafted ice. 
 
-**Photos:** *Enter a comma separated list of three to five representative photos. Use the photo file path or server url.*
+**Photos:** [TMCW3_veg5.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\306_ArcticSaltMarsh\TMCW3_veg5.JPG"), [TMCW40_veg8.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\306_ArcticSaltMarsh\arcticmc_022_gooseparty.jpg"), [arcticmc_022_gooseparty.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\306_ArcticSaltMarsh\arcticmc_022_gooseparty.jpg")
 
 ## Placement in AKNVC Hierarchy
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** Vegetation patterns are related to elevation, which influences the frequency and duration of tidal inundation. Along coastlines with stable elevations, the vegetation pattern is zonal with plants establishing according to their tolerance to salinity and inundation. Along coastlines experiencing subsidence and erosion due to thermokarst, the vegetation pattern is relict of the preexisting, non-tidal type. The low marsh is characterized by discontinuous cover of the stoloniferous grass *Puccinellia phryganodes* and succulent forbs such as *Stellaria humifusa* and *Cochlearia groenlandica*, with the occurrence of the rhizomatous sedge *Carex subspathacea* increasing landward. In contrast, extensive marshes with continuous cover of emergent vegetation may develop in sheltered lagoons and estuaries. Here, the salt-tolerant grasses *Arctophila fulva* and *Dupontia fisheri*, the forb *Hippuris tetraphylla*, and the sedge *Carex ramenskii* are common.
+**Floristics Description:** Vegetation patterns are related to elevation, which influences the frequency and duration of tidal inundation. Along coastlines with stable elevations, the vegetation pattern is zonal with plants establishing according to their tolerance to salinity and inundation. Along coastlines experiencing subsidence and erosion due to thermokarst, the vegetation pattern is relict of the preexisting, non-tidal type. The low marsh is characterized by discontinuous cover of the stoloniferous grass *Puccinellia phryganodes* and succulent forbs such as *Stellaria humifusa* and *Cochlearia groenlandica*, with the occurrence of the rhizomatous sedge *Carex subspathacea* increasing landward. In contrast, extensive marshes with continuous cover of emergent vegetation may develop in sheltered lagoons and estuaries. Here, the salt-tolerant grasses *Arctophila fulva* and *Dupontia fisheri*, the forb *Hippuris tetraphylla*, and the sedge *Carex ramenskii* are characteristic.
 
 [diagnostic_plot]
 
@@ -54,15 +54,19 @@ Table 2. Constancy and cover table for individual taxa with constancy >= 25% and
 
 Figure 3. Plot of range from 25th percentile to 75th percentile and mean for individual taxa occurring in [unit_name]. Individual taxa are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
 
+## Dynamics
+
+**Dynamics Description:** In addition to the regular inundation by marine waters, wind, water, and ice are the driving forces of coastal disturbance. Seasonally high tides coupled with storm events can build surges of marine water that reach above normal elevations and beyond inland extents of mean tides. Such high-energy events can result in the rapid erosion and redeposition of coastal sediment, which may truncate the seaward expansion of salt marshes. To a lesser, more localized extent, rafted ice may scour coastlines and push sediment. The boundaries of the *Puccinellia phryganodes, Carex subspathacea*, and *Carex ramenskii* communities are maintained, in part, by grazing geese such as Black Brant (*Branta bernicla nigricans*).
+
 ## Range
 
-**Range Description:** Commonly found on intertidal zones throughout the entire Arctic bioclimatic zone, but especially on the Arctic Coastal Plain.
+**Range Description:** Occurring on coastlines throughout the Arctic bioclimatic zone.
 
-**Rarity on Landscape:** Common
+**Rarity on Landscape:** Uncommon
 
 ## Environment
 
-**Environment Description:** Salt marshes develop in protected coastal areas where relatively flat land receives regular input of marine waters.  In the Arctic, the elevational range of salt marshes is limited by a microtidal regime, which restricts the expression of salt marsh vegetation to narrow fringes along the margins of coastal rivers, deltas, and estuaries. Soils are poorly drained, very fine sands and silty clays that are often capped with a thin surface horizon of peat. Permafrost tends to be deep due to the proximity of the ocean and the heat-retaining capacity of large bodies of water. Low rates of evaporation in a northern climate coupled with localized freshwater inputs of large rivers can result in low salinity. Wind, water, and ice are the driving forces of coastal disturbance. Seasonally high tides coupled with storm events can create surges of marine water that reach above normal elevations and beyond inland extents of mean tides. Such high-energy events can result in the rapid erosion and redeposition of coastal sediment, which may truncate the seaward expansion of salt marshes. To a lesser, more localized extent, rafted ice may scour coastlines and push sediment. The boundaries of the *Puccinellia phryganodes*, *Carex subspathacea*, and *Carex ramenskii* communities are maintained, in part, by grazing geese such as Black Brant (*Branta bernicla nigricans*).
+**Environment Description:** Salt marshes develop in protected coastal areas where relatively flat land receives regular input of marine waters.  In the Arctic, the elevational range of salt marshes is limited by a microtidal regime, which restricts the expression of salt marsh vegetation to narrow fringes along the margins of coastal rivers, deltas, and estuaries. Soils are poorly drained, very fine sands and silty clays that are often capped with a thin surface horizon of peat. Permafrost tends to be deep due to the proximity of the ocean and the heat-retaining capacity of large bodies of water. Low rates of evaporation in a northern climate coupled with localized freshwater inputs of large rivers can result in low salinity of marsh soils and waters.
 
 **Physiography:** [physiography_text]
 
@@ -86,7 +90,7 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 ## Metadata
 
-**Map Version**: 2.0
+**Map Version**: 3.0
 
 **Described By:** Lindsey Flagstad
 
@@ -94,7 +98,7 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 **Last Revised by:** Lindsey A. Flagstad, Rhiannon C. Glover
 
-**Date:** 2026-05-14
+**Date:** 2026-07-13
 
 ## References
 

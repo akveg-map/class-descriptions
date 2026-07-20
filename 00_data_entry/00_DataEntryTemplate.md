@@ -1,12 +1,6 @@
 # Description Data Entry Template
 
-**Instructions:** After entering data, delete this instruction section. *Only replace text that is shown in Italics in this data entry template.* Once you replace the italicized text, remove the italics (except for taxon names). Do not modify any bracketed text, such as [bracketed_text]. Bracketed text will be replaced by data summaries from the AKVEG Database. Do not modify plain text, which is standard language for all descriptions. Alliance descriptions will follow a similar format but use a different repository in the AKNVC project.
-
-•	Alliances are defined as a vegetation classification unit containing one or more associations, and defined by a characteristic range of species composition, habitat conditions, physiognomy, and diagnostic species, typically at least one of which is found in the uppermost or dominant stratum of the vegetation.
-
-•	This guidance is meant to prompt consistent description. As the ecology of types differs, so will the order and emphasis of the information provided. The end goal is a consistent presentation of information using standardized terminology that does not sacrifice a natural flow and clarity of language.
-
-•	For all sections, use terminology accepted by AKVEG to the extent possible. This is especially important for discussions of physiography, geomorphology, macro and micro topography, moisture regime, and drainage. 
+**Instructions:** After entering data, delete the instruction section. *Only replace text that is shown in Italics in this data entry template.* Once you replace the italicized text, remove the italics (except for taxon names). Do not modify any bracketed text, such as [bracketed_text]. Bracketed text will be replaced by data summaries from the AKVEG Database. Do not modify plain text, which is standard language for all descriptions. Alliance descriptions will follow a similar format but use a different repository in the AKNVC project.
 
 ## Overview
 
@@ -16,20 +10,7 @@
 
 **Code:** *Enter map class code (i.e., raster value in map and code in AKVEG schema).*
 
-**Concept:** This [level] encompasses *Provide a succinct overview of the type that addresses the vegetation structure, floristics, and environment. The text should present:*  
-
-*•	structural class(es)*
-
-*•	the characteristic range of species composition (dominant and indicator species)*
-
-*•	vegetation pattern (semi, dis, or continuous) and extent (small, large, linear, marginal)*
-
-*•	an evaluation of rarity on landscape (i.e., rare, uncommon, common, ubiquitous)*
-
-*•	habitat conditions, which may include descriptors of: soils, moisture regime, associated landforms, or limiting physiology, for example: coastal, freshwater wetland, alpine, floodplain*
-
-*__Example text:__*
-*This map class encompasses low shrubs and bunchgrasses indicated by the sagebrush Artemisia frigida and combinations of the bunch grasses Calamagrostis purpurascens, Bromus pumpellianus, and Festuca altaica. This uncommon type develops as discontinuous patches in well-drained mineral soils across south-facing, rocky slopes; it is associated with river bluffs in the boreal and pingos in the Arctic.*  
+**Concept:** This [level] *complete this single sentence to provide an overview of the type.*
 
 **Photos:** *Enter a comma separated list of three to five representative photos. Use the photo file path or server url.*
 
@@ -47,20 +28,7 @@
 
 ### Structure
 
-**Structural Description:** This [level] *Provide a paragraph addressing the typical structure of the vegetation. Avoid duplicating information provided in other sections. The text should present:*
-
-*•	Dominant life forms presented in order of strata or structural dominance*
-
-*•	Non-dominant, associated life forms*
-
-*•	How life forms are related to the environment, if relevant. For example: tree form (full stature, dwarf, krummholz) shrub form (tall, low, dwarf, prostrate), root morphology (rhizomes, stolons, tussocks), herb form (high or low stature or erect, cushion, creeping); lichen category (arboreal, foliose, fruticose, crustose); moss category (feather or turf, acrocarpous or pleurocarpous mosses)*
-
-*•	If informative, a statement on the presence or absence of woody and non-vascular species, and/or tussocks*
-
-*•	if vegetation is sparse, discuss the dominant abiotic ground cover(s)*
-
-*__Example text:__*
-*This map class is characterized by low shrubs, bunchgrasses, and dry-site lichens; a diversity of forbs and turf mosses are associated at low abundance. While bare soil is characteristic of developing steppe, biotic soil crust is an important ground cover in mature sites with stable substrates. Mixed coniferous-deciduous woodlands may develop at the periphery.*
+**Structural Description:** This [level] *Enter up to a single paragraph describing the typical structure of the vegetation. Avoid providing information redundant with the data summaries below.*
 
 **Structural Class:** *Enter one or more structural classes from the AKVEG Data Dictionary*
 
@@ -74,18 +42,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] *Provide a paragraph discussing plant species composition with emphasis on diagnostic taxa. The text should expand on the floristics of each dominant life form mentioned in the Structural Description and provide context by discussing adaptations to the environment. Avoid duplicating information provided in other sections. The text should present:* 
-
-*•	Dominant, indicator (a combination of frequency and abundance), differential (species that separates the alliance from other alliances), and character (a general term to be uses when not able to provide a more specific term such as dominant, indicator, or differential) species by strata or structural dominance. Within strata species should be listed in decreasing order of importance (i.e., fidelity) if known.*
-
-*•	Life cycles of diagnostic plants (annual or perennial, deciduous or evergreen) if relevant*
-
-*•	Species adaptations related to reproduction, desiccation, inundation, cold, salinity, as appropriate.*
-
-*•	an evaluation of the overall diversity of the type (e.g., diverse assemblage or monoculture)*
-
-*__Example text:__*
-*This map class is indicated by combinations of the low and dwarf shrubs Artemisia frigida, Amelanchier alnifolia, Elaeagnus commutata, Shepherdia canadensis, Juniperus communis, and Arctostaphylos uva-ursi; the grasses Calamagrostis purpurascens, Bromus pumpellianus, Festuca altaica, and Poa glauca; and the forbs Artemisia arctica, Artemisia alaskana, Bupleurum americanum, and Saxifraga tricuspidata. Woodland associations co-dominated by Populus tremuloides and Picea glauca may occur peripherally. Vascular plant cover is often sparse with bare soil, biotic soil crust, or lichen occupying the interstices. Foliose lichens are represented by species in the Dermatocarpon, Diploschistes, Endocarpon, Fulgensia, Psora, Toninia, and Xanthoparmelia genera. Dry site mosses such as Rhytidium rugosum and Tortula ruralis may co-occur.  Predominance of cyanobacteria in the Collema genus suggests that biotic soil crusts make important contributions to the nitrogen budget of steppe ecosystems. Steppe bluffs support a disproportionately high diversity and abundance of rare plant taxa including critically imperiled Botrychium campestre var. lineare, Cryptantha shackletteana, Orobanche fasciculata, and Townsendia hookeri.*
+**Floristics Description:** This [level] *Enter up to a single paragraph describing the diagnostic floristic traits.*
 
 [diagnostic_plot]
 
@@ -108,25 +65,13 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Range
 
-**Range Description:** *Provide a paragraph describing the geographic range of the type. Use standard terms, prioritizing the AKVEG bioclimatic zones (Arctic, Boreal, Northern Subpolar Oceanic, Temperate) and vegetation regions (Alaska-Yukon Central, Arctic Western, Alaska Southwest, Arctic Northern, Aleutian-Kamchatka, Alaska-Yukon Southern, Alaska Pacific, Alaska-Yukon Northern, Alaska Western, North Pacific) but using ecoregions or other geographic terms where more specificity is helpful. Do not attempt to provide a level of detail redundant with the vegetation map.*
-
-*__Example text:__*
-*Steppe vegetation occurs in the Arctic and Boreal bioclimatic zones. The northernmost occurrence of steppe in North America is the Arctic Coastal Plain; the Anderson River steppe in Canada’s Northwest Territory is the easternmost known occurrence of steppe in North America.*
+**Range Description:** *Enter up to one paragraph describing the general range. Use standard terms, prioritizing the AKVEG bioclimatic zones and vegetation regions (but using ecoregions or other geographic terms where more specificity is helpful). Do not attempt to provide a level of detail redundant with the vegetation map.*
 
 **Rarity on Landscape:** *Enter one of the following: Ubiquitous; Common; Uncommon; Rare*
 
 ## Environment
 
-**Environment Description**: *This paragraph should summarize the regional climate that control the distribution of the type and local environmental gradients variation within the type. Avoid duplicating information provided in other sections. Try to expand on the following as appropriate:*
-
-*•	physiography, geomorphology, macro and microtopography, elevation range*
-
-*•	soils, pH, salinity, presence of permafrost*
-
-*•	moisture regime and drainage, with specific information on frequency and duration of inundation for types influenced by tidal and riverine flooding*
-
-*__Example text:__*
-*This type is associated with river bluffs fronting large braided systems in the boreal and the south-facing slopes and summits of pingos in the Arctic. Steppe vegetation develops on steep slopes (inclination 30-46°), oriented to the south (aspect 121-225°) at relatively low elevation (244 to 914 m). Soils are well-drained, silty loams to loams with low organic matter content. Permafrost is typically absent due to warm soil temperatures in the summer and poor insulation in the winter. Soil pH ranges from 6.2 to 8.0 with a mean of 7.0 and is often elevated by input of calcium carbonate-rich loess. Moisture of steppe soils is strongly limited by exposure to wind, low accumulation and residence of snow, drainage across steep slopes, and high soil evaporation and transpiration caused by the slopes’ direct orientation to the low-angled sun.*
+**Environment Description**: *Enter up to one paragraph describing the soils, moisture regime, drainage, pH, salinity as appropriate (e.g., do not describe salinity for non-saline systems). This paragraph should summarize the regional and local environmental gradients that control the distribution of the type and variation within the type.*
 
 **Physiography:** [physiography_text]
 

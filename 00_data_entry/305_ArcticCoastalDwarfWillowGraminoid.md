@@ -8,9 +8,9 @@
 
 **Code:** 305
 
-**Concept:** This [level] encompasses areas of coastal tundra that are exposed to salt-spray and area dominated or co-dominated by the prostrate shrub *Salix ovalifolia* and salt-tolerant graminoids.
+**Concept:** This [level] encompasses areas of coastal tundra that are exposed to salt-spray and area dominated or co-dominated by the prostrate shrub *Salix ovalifolia* and salt-tolerant graminoids. Soils are moderately saline and sites are susceptible to thermokarst and storm surge.
 
-**Photos:** *Enter a comma separated list of three to five representative photos. Use the photo file path or server url.*
+**Photos:** [TMCD3_veg3.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\305_CoastalDwShrubWillowGram\TMCD3_veg3.JPG"), [TMCD3_veg6.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\305_CoastalDwShrubWillowGram\TMCD3_veg6.JPG"), [TMCW5B_t2c.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\305_CoastalDwShrubWillowGram\TMCW5B_t2c.JPG")
 
 ## Placement in AKNVC Hierarchy
 
@@ -54,13 +54,19 @@ Table 2. Constancy and cover table for individual taxa with constancy >= 25% and
 
 Figure 3. Plot of range from 25th percentile to 75th percentile and mean for individual taxa occurring in [unit_name]. Individual taxa are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
 
+## Dynamics
+
+**Dynamics Description:** This coastal type is susceptible to thermokarst and storm surge. The thawing of ice-rich permafrost and/or the melting of massive ground ice results in the consolidation of soils and subsidence of the soil surface, which in turn can promote further inundation and erosion of coastal tundra. Seasonally high tides coupled with storm events can build surges of marine water that reach above normal elevations and beyond inland extents of mean tides. Depending on the frequency and duration of inundation, salinity of water, and flow of fresh water through the site, salt can either be quickly removed from the system or can remain in soil at high concentrations for long periods of time. Systems may transition to brackish types where soil salinity is increased and hydrologic regime is altered towards more hydric conditions. 
+
 ## Range
+
+**Range Description:** Occurring in coastal settings across the Arctic bioclimate zone.
 
 **Rarity on Landscape:** Uncommon
 
 ## Environment
 
-**Environment Description**: This class occurs on stabilized coastal dunes and inactive tidal flats that maintain saline soils due to exposure to salt spray. Soils are typically shallow organic material over sandy silts. Lenses of storm-deposited silts and sands may occur in the organic horizon. The depth to ice-rich permafrost increases with distance away from the ocean and development of continuous vegetation, which provides both organic matter input and increased insulation for aggrading permafrost. Conversely, thawing of ice-rich permafrost and/or the melting of massive ground ice results in the consolidation and deformation of the soil surface, which in turn can promote the further inundation and erosion of coastal tundra.
+**Environment Description**: This [level] occurs on stabilized coastal dunes and inactive tidal flats that maintain moderately saline soils due to exposure to salt spray. Soils are typically shallow organic material over sandy silts. Lenses of storm-deposited silts and sands may occur in the organic horizon. The depth to ice-rich permafrost increases with distance away from the ocean and development of continuous vegetation, which provides both organic matter input and increased insulation for aggrading permafrost.
 
 **Physiography:** [physiography_text]
 
@@ -84,15 +90,15 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 ## Metadata
 
-**Map Version**: *Enter the version of the map that this description is current with.*
+**Map Version**: 3.0
 
 **Described By:** Lindsey A. Flagstad, Rhiannon C. Glover
 
 **Date:** 2026-05-14
 
-**Last Revised by:** *Enter the name (First Middle Initial Last) of the latest revision author(s).*
+**Last Revised by:** Lindsey A. Flagstad
 
-**Date:** *Enter the date (yyyy-mm-dd) of the revision.*
+**Date:** 2026-07-13
 
 ## References
 

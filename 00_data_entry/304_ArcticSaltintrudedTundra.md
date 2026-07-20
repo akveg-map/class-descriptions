@@ -8,9 +8,9 @@
 
 **Code:** 304
 
-**Concept:** This [level] encompasses low-lying coastal areas where inundation by saltwater causes mortality of non-halophytic (salt-intolerant) species and allows colonization by halophytic (salt-tolerant) plant species. 
+**Concept:** This [level] encompasses low-lying coastal areas where inundation by saltwater causes mortality of non-halophytic (salt-intolerant) species and allows colonization by halophytic (salt-tolerant) plant species. Following intrusion, the species composition and rate of recovery largely depends on the frequency and duration of inundation, salinity of water, and flow of fresh water through the site.
 
-**Photos:** *Enter a comma separated list of three to five representative photos. Use the photo file path or server url.*
+**Photos:** [ns12_bs_005799.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\304_SaltKilledTundra\ns12_bs_005799.jpg"), [shorezone_skt.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\304_SaltKilledTundra\shorezone_skt.jpg"), [shorezone_skt2.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\304_SaltKilledTundra\shorezone_skt2.jpg")
 
 ## Placement in AKNVC Hierarchy
 
@@ -26,7 +26,7 @@
 
 ### Structure
 
-**Structural Description:** This [level] may range from mortality of woody and non-vascular species in otherwise intact tundra, to complete mortality of the pre-existing vegetation type with colonization by salt-tolerant, rhizomatous or stoloniferous grasses.
+**Structural Description:** The structure of vegetation is highly variable, relating to both the type of vegetation that was inundated by salt water and the severity of salt-water intrusion. Structural composition of this type may range from mortality of woody and non-vascular species in otherwise intact tundra, to complete mortality of the pre-existing vegetation type with colonization by salt-tolerant, rhizomatous or stoloniferous grasses.
 
 **Structural Class:** salt-killed meadow; barrens or partially vegetated
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** Depending on degree of intrusion, tundra may not support any living vegetation, may support a mix of halophytic and non-halophytic plants, or may be colonized by salt-tolerant grasses. Common colonizing grasses include *Leymus mollis*, *Festuca rubra*, *Puccinellia* species, and *Calamagrostis deschampsioides*. Plants and non-vascular species that survive inundation will be relict of the pre-existing community.
+**Floristics Description:** Depending on the severity of inundation, tundra may not support any living vegetation, may support a mix of halophytic and non-halophytic plants, or may be colonized by salt-tolerant grasses. Common colonizing grasses include *Leymus mollis*, *Festuca rubra*, *Puccinellia* species, and *Calamagrostis deschampsioides*. Plants and non-vascular species that survive inundation will be relict of the pre-existing community.
 
 [diagnostic_plot]
 
@@ -54,13 +54,19 @@ Table 2. Constancy and cover table for individual taxa with constancy >= 25% and
 
 Figure 3. Plot of range from 25th percentile to 75th percentile and mean for individual taxa occurring in [unit_name]. Individual taxa are included if they have constancy >= 25% and mean cover >= 2% or constancy >= 50% and mean cover >= 1%.
 
+## Dynamics
+
+**Dynamics Description:** The intrusion of marine waters to low-lying coastal tundra can result from storm surge or thermokarst. Seasonally high tides coupled with storm events can build surges of marine water that reach above normal elevations and beyond inland extents of mean tides into freshwater and tundra systems. Thermokarst and the subsequent subsidence of the ground surface have variable effect, ranging from the permanent flooding of a site by marine waters (typical of breached lake basins), or the transition to a tidally-influenced system (typical of ice-rich polygonal tundra). Regardless of mechanism of intrusion, plants with little to no salt tolerance become vulnerable to osmotic stress, which compromises their water and nutrient uptake and may result in mortality. Depending on the frequency and duration of inundation, salinity of water, and flow of fresh water through the site, salt can either be quickly removed from the system, or can remain in soil at high concentrations for long periods of time. Recovery from severe salt intrusion can be slow and spatially limited.
+
 ## Range
+
+**Range Description:** Occurring along coastlines throughout the Arctic bioclimatic zone.
 
 **Rarity on Landscape:** Uncommon
 
 ## Environment
 
-**Environment Description**: The intrusion of marine waters to low-lying coastal tundra can result from storm surge or thermokarst. Seasonally high tides coupled with storm events can create surges of marine water that reach above normal elevations and beyond inland extents of mean tides into freshwater and tundra systems. Thermokarst and the subsequent subsidence of the ground surface can have variable effects, ranging from the permanent flooding of a site by marine waters (typical of breached lake basins), or the transition to a tidally-influenced system (typical of ice-rich polygonal tundra). Regardless of mechanism of intrusion, plants with little to no salt tolerance become vulnerable to osmotic stress, which compromises water and nutrient uptake and may result in mortality. Depending on the frequency of intrusion, salinity of water, duration of inundation, and flow of fresh water through the site, salt can either be quickly removed from the system or remain in soil at high concentrations for long periods of time. Recovery from severe salt intrusion can be slow and spatially limited. 
+**Environment Description**: [unit_name] occurs along portions of the coast that are either naturally low-lying, such as large river deltas and gently sloping upper beaches or sites that have been rendered low lying by thermokarst or coastal erosion such as permafrost degraded polygonal tundra or drained lake basins. As marine waters can intrude a variety of settings, there is a corresponding range of associated soil types, textures, pH, and moisture and permafrost regimes.  In general, inundation may be accompanied by the deposition of fine-sediment, an increase in soil salinity and pH, and degradation of massive or interstitial soil ice. 
 
 **Physiography:** [physiography_text]
 
@@ -84,15 +90,15 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 ## Metadata
 
-**Map Version**: *Enter the version of the map that this description is current with.*
+**Map Version**: 3.0
 
 **Described By:** Lindsey A. Flagstad, Rhiannon C. Glover
 
 **Date:** 2026-05-14
 
-**Last Revised by:** *Enter the name (First Middle Initial Last) of the latest revision author(s).*
+**Last Revised by:** Lindsey Flagstad
 
-**Date:** *Enter the date (yyyy-mm-dd) of the revision.*
+**Date:** 2026-07-13
 
 ## References
 
