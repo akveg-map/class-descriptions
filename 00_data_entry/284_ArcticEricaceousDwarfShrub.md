@@ -56,7 +56,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Dynamics
 
-**Dynamics Description:** Wind and the varible retetion of snow direct the stature and extext of the type at elevation. More exposed sites are susceptible to mass wasting events such as landslides and avalanches. Sites underlain by ice rich permafrost experience surficial disturbances such as frost boils and scars.
+**Dynamics Description:** Wind and the variable retention of snow direct the stature and extent of the type at elevation. More exposed sites are susceptible to mass wasting events such as landslides and avalanches. Sites underlain by ice-rich permafrost experience surficial disturbances such as frost boils and scars.
 
 ## Range
 
@@ -66,7 +66,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Environment
 
-**Environment Description**: The [unit_name] type occurs in upland and lowland physiography located between the coastal zone and latitudinal tree line. This type develops continuous and lush vegetation on sites that are protected from the wind and retain snow such as valleys, north-facing slopes, and meadows. These lowland sites are underlain by ice-rich permafrost. At higher elevations, this class develops discontinuous and lower stature vegetation in more wind exposed sites such as talus and scree slopes and concave microtopography along summits and ridges. Soils of these sites are well to excessively well-drained and range from acidic to circumneutral. 
+**Environment Description**: The [unit_name] type occurs in upland and lowland physiography located between the coastal zone and the latitudinal tree line. This type develops continuous and lush vegetation on sites that are protected from the wind and retain snow, such as valleys, north-facing slopes, and meadows. These lowland sites are underlain by ice-rich permafrost. At higher elevations, this class develops discontinuous and lower-stature vegetation in more wind-exposed sites such as talus and scree slopes and concave microtopography along summits and ridges. Soils of these sites are well to excessively well-drained and range from acidic to circumneutral. 
 
 **Physiography:** [physiography_text]
 
