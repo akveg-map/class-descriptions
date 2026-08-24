@@ -8,7 +8,7 @@
 
 **Code:** 291
 
-**Concept:** This [level] encompasses mesic, open to closed, tall shrublands dominated by *Alnus alnobetula* ssp. *fruticosa,* often in combination with willows, such as *Salix alaxensis*. A relativbely stable type subject to coluvial processes. 
+**Concept:** This [level] encompasses mesic, open to closed, tall shrublands dominated by *Alnus alnobetula* ssp. *fruticosa,* often in combination with willows, such as *Salix alaxensis*. A relatively stable type subject to colluvial processes. 
 
 **Photos:** [IMG_6964.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\291_AlderShrubMesic\IMG_6964.HEIC"), [IMG_6969.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\291_AlderShrubMesic\IMG_6969.HEIC"), [IMG_6957.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\291_AlderShrubMesic\IMG_6957.HEIC"), [IMG_6968.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\291_AlderShrubMesic\IMG_6968.HEIC")
 
@@ -56,7 +56,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Dynamics
 
-**Dynamics Description:** The [unit_name] type is relatively stable. On steeper slopes, sites may be succeptible to soil creep, landslide, and avalanche. Permafrost is present at depth but is not a formative element. This type is expected to expand its range under a warming climate. 
+**Dynamics Description:** The [unit_name] type is relatively stable. On steeper slopes, sites may be susceptible to soil creep, landslide, and avalanche. Permafrost is present at depth but is not a formative element. This type is expected to expand its range under a warming climate. 
 
 ## Range
 
