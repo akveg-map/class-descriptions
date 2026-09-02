@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is indicated by *Alnus alnobetula* ssp. *fruticosa.* Tall and low willow shrubs, such as *Salix alaxensis, Salix pulchra, Salix richardsonii, Salix barclayii,* and *Salix commutata* are common and may co-dominate*.* Other dwarf and prostrate shrubs, including *Vaccinium* species, *Betula nana, Empetrum nigrum,* or *Rhododendron tomentosum,* are common in the understory. Common herbs include *Calamagrostis canadensis, Chamerion angustifolium, Equisetum arvense, Rubus arcticus,* and *Sanguisorba canadensis.* The most common mosses are *Hylocomium splendens* and *Dicranum* species.
+**Floristics Description:** This [level] is indicated by *Alnus alnobetula* ssp. *fruticosa.* Tall and low willow shrubs, such as *Salix alaxensis, Salix pulchra, Salix richardsonii, Salix barclayii,* and *Salix commutata* are common and may co-dominate. Other dwarf and prostrate shrubs, including *Vaccinium* species, *Betula nana*, *Empetrum nigrum*, or *Rhododendron tomentosum* ssp. *decumbens*, are common in the understory. Common herbs include *Calamagrostis canadensis, Chamerion angustifolium, Equisetum arvense, Rubus arcticus,* and *Sanguisorba canadensis.* The most common mosses are *Hylocomium splendens* and *Dicranum* species.
 
 [diagnostic_plot]
 
