@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is indicated by combinations of ruderal herbs including: the forbs *Eurybia sibirica*, *Chamerion latifolium*,  *Hedysarum alpinum*, *Astragulus alpinus*, *Wilhelmsia peploides*, *Lupinus arcticus*, *Artemisia tilesii*, *Achillea millefolium* spp. *borealis*, *Tanacetum bipinnatum* ssp. *bipinnatum*, and **Parnassia kotzebuei*, the horsetails *Equisetum arvense* and *Equisetum variegatum*, and the grasses *Bromus pumpullianus* and *Festuca rubra*.  When present the most constant bryophytes are *Racomitrium lanuginosum* and *Ceratodon purpureus*.
+**Floristics Description:** This [level] is indicated by combinations of ruderal herbs including: the forbs *Eurybia sibirica*, *Chamerion latifolium*,  *Hedysarum alpinum*, *Astragulus alpinus*, *Wilhelmsia peploides*, *Lupinus arcticus*, *Artemisia tilesii*, *Achillea millefolium* spp. *borealis*, *Tanacetum bipinnatum* ssp. *bipinnatum*, and *Parnassia kotzebuei*, the horsetails *Equisetum arvense* and *Equisetum variegatum*, and the grasses *Bromus pumpullianus* and *Festuca rubra*.  When present, the most constant bryophytes are *Racomitrium lanuginosum* and *Ceratodon purpureus*.
 
 [diagnostic_plot]
 
@@ -56,7 +56,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Dynamics
 
-**Dynamics Description:** The [unit_name] type experiences regular flooding during the growing season. Across floodplains in the Arctic, both the energy of flooding and depth of seasonal thaw decreases away from the main channel. These gradients are paralleled by decreases in sediment grain size, drainage, and shrub stature and increase in understory development. In the active floodplain, high energy flooding may scour vegetation and erode and redeposit sediment; this frequent disturbance holds sites in an early successional state. As this type is maintained by hydrology, any change to the frequency of flooding and duration of inundation or saturation will have commensurate effects on vegetation. For example, as the main channel migrates across the valley floor, sites can become removed from the active floodplain, eventually transitioning to riparian shrub communities. 
+**Dynamics Description:** The [unit_name] type experiences regular flooding during the growing season. Across floodplains in the Arctic, both the energy of flooding and depth of seasonal thaw decrease away from the main channel. These gradients are paralleled by decreases in sediment grain size, drainage, and shrub stature and an increase in understory development. In the active floodplain, high-energy flooding may scour vegetation and erode and redeposit sediment; this frequent disturbance holds sites in an early successional state. As this type is maintained by hydrology, any change to the frequency of flooding and duration of inundation or saturation will have commensurate effects on vegetation. For example, as the main channel migrates across the valley floor, sites can become removed from the active floodplain, eventually transitioning to riparian shrub communities. 
 
 ## Range
 
@@ -66,7 +66,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Environment
 
-**Environment Description**: This [level] represents an early successional stage of vegetated, active floodplains. Due to frequent flooding, soils consist of sorted sand, gravel, or cobble with minimal pedogenesis. Excessive drainage and the near absence of organic material creates a nutrient poor environment that inhibits the establishment and growth of slow growing and woody species. Owing to the high capacity of water to retain heat and the proximity of this type to the main channel, permafrost is deep and not a formative element.
+**Environment Description**: This [level] represents an early successional stage of vegetated, active floodplains. Due to frequent flooding, soils consist of sorted sand, gravel, or cobble with minimal pedogenesis. Excessive drainage and the near absence of organic material create a nutrient-poor environment that inhibits the establishment and growth of slow-growing and woody species. Owing to the high capacity of water to retain heat and the proximity of this type to the main channel, permafrost is deep and not a formative element.
 
 **Physiography:** [physiography_text]
 
