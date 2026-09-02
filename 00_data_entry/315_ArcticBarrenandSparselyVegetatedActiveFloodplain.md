@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is either barren or sparsely vegetated by ruderal and pioneer species. Common species are: *Epilobium latifolium*, *Equisetum* species, *Festuca rubra*, *Elymus* species*, Hedysarum mackenziei, Artemisia tilesii, Parnassia kotzebuei, Arctagrostis latifolia*, and *Astragalus alpinus*. 
+**Floristics Description:** This [level] is either barren or sparsely vegetated by ruderal and pioneer species. Characteristic species include the forbs *Chamerion latifolium*, *Hedysarum mackenziei*, *Artemisia tilesii*, *Parnassia kotzebuei*, *Astragalus alpinus*, *Equisetum* species, and the graminoids *Arctagrostis latifolia*,  *Festuca rubra*, and *Elymus* species. 
 
 [diagnostic_plot]
 
@@ -56,7 +56,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Dynamics
 
-**Dynamics Description:** Across floodplains in the Arctic, both the energy of flooding and depth of seasonal thaw decreases away from the main channel. These gradients are paralleled by decreases in sediment grain size, drainage, and shrub stature and increase in understory development. The erosion and redeposition of sediment associated with frequent and high-energy flooding in the active floodplain limits the development of soils and the establishment and growth of vegetation. Ice blocks may scour substrates during spring breakup. As this type is maintained by hydrology, any moderation of flooding regime, for example through channel migration away from the site, will promote the growth of existing species and the establishment of bryophytes and shrubs.
+**Dynamics Description:** Across floodplains in the Arctic, both the energy of flooding and depth of seasonal thaw decrease away from the main channel. These gradients are paralleled by decreases in sediment grain size, drainage, and shrub stature and an increase in understory development. The erosion and redeposition of sediment associated with frequent and high-energy flooding in the active floodplain limits the development of soils and the establishment and growth of vegetation. Ice blocks may scour substrates during spring breakup. As this type is maintained by hydrology, any moderation of the flooding regime, for example through channel migration away from the site, will promote the growth of existing species and the establishment of bryophytes and shrubs.
 
 ## Range
 
@@ -92,18 +92,18 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 **Map Version**: *3.0*
 
-**Described By:** Rhiannon C. Glover
+**Described By:** Rhiannon C. Glover, Lindsey A. Flagstad
 
 **Date:** 2026-05-13
 
-**Last Revised by:** Lindsey A. Flagstad
+**Last Revised by:** Rhiannon C. Glover
 
-**Date:** 2026-07-16
+**Date:** 2026-09-02
 
 ## References
 
-Macander M, Wells A, McNown R, Christopherson T. 2020. 2019 North Slope ANWR Land Cover Mapping Final Report. Arctic National Wildlife Refuge.[ ](https://doi.org/10.13140/RG.2.2.13691.54566)https://doi.org/10.13140/RG.2.2.13691.54566
+Macander M, Wells A, McNown R, Christopherson T. 2020. 2019 North Slope ANWR Land Cover Mapping Final Report. Arctic National Wildlife Refuge. https://doi.org/10.13140/RG.2.2.13691.54566
 
 Jorgenson, M. T., J. E. Roth, P.F. Miller, M.J. Macander, M.S. Duffy, A.F. Wells, G.V. Frost, E.R. Pullman, 2009. An Ecological Land Survey and Landcover Map of the Arctic Network. Natural Resource Technical Report NPS/ARCN/NRTR - 2009/270. 322 pp.
 
-Wells, A., Swingley, C., Ives, S., McNown, R., & Dissing, D. (2022). Vegetation classification for northwestern Arctic Alaska using an EcoVeg approach: Tussock tundra and low and tall willow groups and alliances. Vegetation Classification and Survey, 3, 87–117. https://doi.org/10.3897/VCS.65469
+Wells, A., Swingley, C., Ives, S., McNown, R., & Dissing, D. 2022. Vegetation classification for northwestern Arctic Alaska using an EcoVeg approach: Tussock tundra and low and tall willow groups and alliances. Vegetation Classification and Survey, 3, 87–117. https://doi.org/10.3897/VCS.65469
