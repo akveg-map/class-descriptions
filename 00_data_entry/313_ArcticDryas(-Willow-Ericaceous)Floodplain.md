@@ -8,7 +8,7 @@
 
 **Code:** 313
 
-**Concept:** This [level] encompasses *Dryas-*dominated dwarf shrublands occupying the portion of floodplains that experience irregular flooding or saturation. Soils are fine grained silts and sands with shallow, yet often ice-poor permafrost. 
+**Concept:** This [level] encompasses *Dryas*-dominated dwarf shrublands occupying the portion of floodplains that experience irregular flooding or saturation. Soils are fine-grained silts and sands with shallow, yet often ice-poor permafrost. 
 
 **Photos:** [NPRA2015_AFS66_S4.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\313_DryasFloodplain\NPRA2015_AFS66_S4.JPG"), [NPRA2015_AFS66_T2.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\313_DryasFloodplain\NPRA2015_AFS66_T2.JPG"), [NPRA2015_AFS65_T3.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\313_DryasFloodplain\NPRA2015_AFS65_T3.JPG")
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is indicated by dwarf shrubs in the *Dryas* genus; *Dryas integrifolia* is more common in the Arctic with dominance transitioning to *Dryas drummondii* at lower latitudes. The prostrate shrubs *Salix reticulata* and *Arctous rubra* are often codominant. Diagnostic herbaceous plants include *Eurybia sibirica, Chamerion latifolium, Oxytropis campestris, Equisetum variegatum*, *Equisetum scorpoides,* and *Bromus pumpellianus*. Other common herbaceous plants include the forbs *Bistorta vivipara, Tofieldia pusilla, Lupinus arcticus, Senecio lugens, Hedysarum alpinum, Astragalus umbellatus*, and *Androsace chamaejasme*, and the grasses *Calamagrostis purpurascens* and *Poa glauca*. The most common bryophytes include *Tomentypnum nitens*, *Rhytidium rugosum,* and *Racomitrium lanuginosum*. The lichen *Thamnolia vermiculata* is locally abundant.
+**Floristics Description:** This [level] is indicated by dwarf shrubs in the *Dryas* genus; *Dryas integrifolia* is more common in the Arctic, with dominance transitioning to *Dryas drummondii* at lower latitudes. The prostrate shrubs *Salix reticulata* and *Arctous rubra* are often codominant. Diagnostic herbaceous plants include *Eurybia sibirica, Chamerion latifolium, Oxytropis campestris, Equisetum variegatum*, *Equisetum scorpoides,* and *Bromus pumpellianus*. Other common herbaceous plants include the forbs *Bistorta vivipara, Tofieldia pusilla, Lupinus arcticus, Senecio lugens, Hedysarum alpinum, Astragalus umbellatus*, and *Androsace chamaejasme*, and the grasses *Calamagrostis purpurascens* and *Poa glauca*. The most common bryophytes include *Tomentypnum nitens*, *Rhytidium rugosum,* and *Racomitrium lanuginosum*. The lichen *Thamnolia vermiculata* is locally abundant.
 
 [diagnostic_plot]
 
@@ -56,7 +56,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Dynamics
 
-**Dynamics Description:** The [unit_name] type is a late-successional type that is subject to irregular flooding and saturation. Across floodplains in the Arctic, both the energy of flooding and depth of seasonal thaw decreases away from the main channel. These gradients are paralleled by decreases in sediment grain size, drainage, and shrub stature and increase in understory development. In the inactive floodplain, infrequent inundation by low-energy waters delivers nutrient-rich silts and fine sands to the system, which contribute to the alkaline nature of soils and the species richness of the plant community. As finer sediments and organics accumulate, the insulatory capacity of surface layers increases and permafrost aggrades, thereby decreasing the depth of seasonal thaw. With the continued gain of material and stabilization of the substrate by interstitial ice, sites are elevated above the floodplain and vegetation transitions to upland tundra.
+**Dynamics Description:** The [unit_name] type is a late-successional type that is subject to irregular flooding and saturation. Across floodplains in the Arctic, both the energy of flooding and depth of seasonal thaw decrease away from the main channel. These gradients are paralleled by decreases in sediment grain size, drainage, and shrub stature and an increase in understory development. In the inactive floodplain, infrequent inundation by low-energy waters delivers nutrient-rich silts and fine sands to the system, which contribute to the alkaline nature of soils and the species richness of the plant community. As finer sediments and organics accumulate, the insulatory capacity of surface layers increases, and permafrost aggrades, thereby decreasing the depth of seasonal thaw. With the continued gain of material and stabilization of the substrate by interstitial ice, sites are elevated above the floodplain and vegetation transitions to upland tundra.
 
 ## Range
 
@@ -66,7 +66,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Environment
 
-**Environment Description**: Soils are alkaline, and owing to periodic sedimentation from overbank flooding, are comprised of interbedded silts, sands and organics. Soils are seasonally wet following flooding but are otherwise mesic to dry and moderately- to well-drained. Permafrost is relatively shallow and ice-poor due to soil drainage. 
+**Environment Description**: Soils are alkaline, and owing to periodic sedimentation from overbank flooding, are comprised of interbedded silts, sands, and organics. Soils are seasonally wet following flooding but are otherwise mesic to dry and moderately- to well-drained. Permafrost is relatively shallow and ice-poor due to soil drainage. 
 
 **Physiography:** [physiography_text]
 
