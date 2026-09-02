@@ -56,7 +56,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Dynamics
 
-**Dynamics Description:** Dominance of *Sphagnum* represents a late stage of peat formation, often with thick accumulations of organic material. Barring change to the hydrothermal regime, this type is relatively stable. Where regional increase in temperature results in permafrost degradation and improved drainage, sites may transition out of wetland conditions. Conversely, retarded drainage may transition sites to aquatic habitat or where flow is increased, a more mineotrophic wetland.
+**Dynamics Description:** Dominance of *Sphagnum* represents a late stage of peat formation, often with thick accumulations of organic material. Barring change to the hydrothermal regime, this type is relatively stable. Where regional increase in temperature results in permafrost degradation and improved drainage, sites may transition out of wetland conditions. Conversely, retarded drainage may transition sites to aquatic habitat or, where flow is increased, a more mineotrophic wetland.
 
 ## Range
 
@@ -66,7 +66,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Environment
 
-**Environment Description**: Physiography and water chemistry distinguish minerotrophic from ombrotrophic wetlands, resulting in differences in species composition, productivity, and soil properties. Sphagnum-Sedge peatlands are a type of ombrotrophic wetland that occurs in lowlands and receives moisture primarily from rain or snowmelt. Shallow and ice-rich permafrost retards the infiltration of surface water and promotes saturation, which in turn facilitates the accumulation of organic matter as peat. Hydric and cold soils in combination with *Sphagnum* dominance creates low-nutrient and low-productivity conditions relative to brown moss-dominated, mineotrophic systems. Soils are poorly-drained mineral soils capped with thick fibric to mucky peat. This [level] is often associated with lake margins and polygonal tundra complexes.
+**Environment Description**: Physiography and water chemistry distinguish minerotrophic from ombrotrophic wetlands, resulting in differences in species composition, productivity, and soil properties. Sphagnum-Sedge peatlands are a type of ombrotrophic wetland that occurs in lowlands and receives moisture primarily from rain or snowmelt. Shallow and ice-rich permafrost retards the infiltration of surface water and promotes saturation, which in turn facilitates the accumulation of organic matter as peat. Hydric and cold soils in combination with *Sphagnum* dominance create low-nutrient and low-productivity conditions relative to brown moss-dominated, mineotrophic systems. Soils are poorly-drained mineral soils capped with thick fibric to mucky peat. This [level] is often associated with lake margins and polygonal tundra complexes.
 
 **Physiography:** [physiography_text]
 
@@ -90,11 +90,11 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 ## Metadata
 
-**Map Version**: *3.0*
+**Map Version**: 3.0
 
-**Described By:** *Rhiannon C. Glover, Lindsey A. Flagstad*
+**Described By:** Rhiannon C. Glover, Lindsey A. Flagstad
 
-**Date:** *2026-05-14
+**Date:** 2026-05-14
 
 **Last Revised by:** Lindsey A. Flagstad
 
