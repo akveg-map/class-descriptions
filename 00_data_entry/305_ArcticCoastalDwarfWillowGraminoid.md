@@ -8,7 +8,7 @@
 
 **Code:** 305
 
-**Concept:** This [level] encompasses areas of coastal tundra that are exposed to salt-spray and area dominated or co-dominated by the prostrate shrub *Salix ovalifolia* and salt-tolerant graminoids. Soils are moderately saline and sites are susceptible to thermokarst and storm surge.
+**Concept:** This [level] encompasses areas of coastal tundra exposed to salt spray and dominated or co-dominated by the prostrate shrub *Salix ovalifolia* and salt-tolerant graminoids. Soils are moderately saline, and sites are susceptible to thermokarst and storm surge.
 
 **Photos:** [TMCD3_veg3.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\305_CoastalDwShrubWillowGram\TMCD3_veg3.JPG"), [TMCD3_veg6.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\305_CoastalDwShrubWillowGram\TMCD3_veg6.JPG"), [TMCW5B_t2c.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\305_CoastalDwShrubWillowGram\TMCW5B_t2c.JPG")
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is a species-rich type indicated by the salt-tolerant, prostrate shrub, *Salix ovalifolia*. Associated graminoids may include *Deschampsia cespitosa*, *Calamagrostis deschampsioides*, *Dupontia fischeri*, *Puccinellia andersonii*, *Carex rariflora*, *Carex glareosa*, and *Eriophorum angustifolium*. Forbs such as *Pedicularis sudetica*, *Rumex arcticus*, *Saxifraga exilis*, *Sedum rosea*, *Chrysanthemum arcticum*, and *Melandrium apetalum* occur sporadically and at low cover. Mosses in the *Bryum* and *Campyllum genera* may occur at low abundance. 
+**Floristics Description:** This [level] is a species-rich type indicated by the salt-tolerant, prostrate shrub, *Salix ovalifolia*. Associated graminoids may include *Deschampsia cespitosa*, *Calamagrostis deschampsioides*, *Dupontia fischeri*, *Puccinellia andersonii*, *Carex rariflora*, *Carex glareosa*, and *Eriophorum angustifolium*. Forbs such as *Pedicularis sudetica*, *Rumex arcticus*, *Saxifraga exilis*, *Sedum rosea*, *Chrysanthemum arcticum*, and *Melandrium apetalum* occur sporadically and at low cover. Mosses in the *Bryum* and *Campylium* genera may occur at low abundance. 
 
 [diagnostic_plot]
 
@@ -56,7 +56,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Dynamics
 
-**Dynamics Description:** This coastal type is susceptible to thermokarst and storm surge. The thawing of ice-rich permafrost and/or the melting of massive ground ice results in the consolidation of soils and subsidence of the soil surface, which in turn can promote further inundation and erosion of coastal tundra. Seasonally high tides coupled with storm events can build surges of marine water that reach above normal elevations and beyond inland extents of mean tides. Depending on the frequency and duration of inundation, salinity of water, and flow of fresh water through the site, salt can either be quickly removed from the system or can remain in soil at high concentrations for long periods of time. Systems may transition to brackish types where soil salinity is increased and hydrologic regime is altered towards more hydric conditions. 
+**Dynamics Description:** This coastal type is susceptible to thermokarst and storm surge. The thawing of ice-rich permafrost and/or the melting of massive ground ice results in the consolidation of soils and subsidence of the soil surface, which in turn can promote further inundation and erosion of coastal tundra. Seasonally high tides coupled with storm events can build surges of marine water that reach above normal elevations and beyond inland extents of mean tides. Depending on the frequency and duration of inundation, salinity of water, and flow of fresh water through the site, salt can either be quickly removed from the system or can remain in soil at high concentrations for long periods of time. Systems may transition to brackish types where soil salinity is increased, and the hydrologic regime is altered towards more hydric conditions. 
 
 ## Range
 
