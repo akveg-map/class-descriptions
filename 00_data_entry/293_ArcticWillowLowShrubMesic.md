@@ -1,4 +1,4 @@
-# Description Data Entry Template
+# Description Data Entry
 
 ## Overview
 
