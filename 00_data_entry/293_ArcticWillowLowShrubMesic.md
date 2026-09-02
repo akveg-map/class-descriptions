@@ -8,7 +8,7 @@
 
 **Code:** 293
 
-**Concept:** This [level] encompasses mesic to moist, low shrublands where willow shrubs, such as *Salix pulchra*, *Salix. richardsonii*, and *Salix glauca*, are dominant.
+**Concept:** This [level] encompasses mesic to moist, low shrublands where willow shrubs, such as *Salix pulchra*, *Salix richardsonii*, and *Salix glauca*, are dominant.
 
 **Photos:** [NPRA2015_FLST67_veg1.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\293_WillowLowShrubMesic\NPRA2015_FLST67_veg1.JPG"), [NPRA2015_FLST67_veg3.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\293_WillowLowShrubMesic\NPRA2015_FLST67_veg3.JPG"), [AFS23_veg6.jpg]("S:\Ecology\Alaska_NVC\Alliance Review 2026\Arctic Map Class Descriptions\MapClassPhotos\293_WillowLowShrubMesic\AFS23_veg6.JPG")
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is indicated by the low willows *Salix richardsonii*, *Salix pulchra*, and *Salix glauca,* which dominate the shrub canopy. Other highly constant species include, the dawrf shrubs *Salix reticulata, Betula nana,* *Vaccinium uliginosum,* and *Rhododendron tomentosum* ssp. *decumbens*, and the forbs *Petasites frigidus*, *Lupinus arcticus*, *Valeriana capitata*, *Polemonium acutiflorum*, *Polygonum viviparum*, *Rubus chamaemorus,* *Equisetum arvense*, and *Equisetum varigatum*. The graminoids, *Arctagrostis latifolia, Carex biglowii*, and *Poa arctica* occur on microhighs in low abundance and the sedges *Carex aquatilis* and *Eriophorum angustifolium occur in wet microlows at low abundance. The most common and abundant bryophytes include *Hylocomium splendens*, *Aulacomnium palustre*, *Campylium stellatum*, *Rhytidium rugosum*, and *Tomentypnum nitens*. The lichen *Peltigera aphthosa* is often present at low abundance.
+**Floristics Description:** This [level] is indicated by the low willows *Salix richardsonii*, *Salix pulchra*, and *Salix glauca,* which dominate the shrub canopy. Other highly constant species include the dwarf shrubs *Salix reticulata, Betula nana,* *Vaccinium uliginosum,* and *Rhododendron tomentosum* ssp. *decumbens*, and the forbs *Petasites frigidus*, *Lupinus arcticus*, *Valeriana capitata*, *Polemonium acutiflorum*, *Polygonum viviparum*, *Rubus chamaemorus,* *Equisetum arvense*, and *Equisetum varigatum*. The graminoids, *Arctagrostis latifolia, Carex biglowii*, and *Poa arctica* occur on microhighs in low abundance, and the sedges *Carex aquatilis* and *Eriophorum angustifolium* occur in wet microlows at low abundance. The most common and abundant bryophytes include *Hylocomium splendens*, *Aulacomnium palustre*, *Campylium stellatum*, *Rhytidium rugosum*, and *Tomentypnum nitens*. The lichen *Peltigera aphthosa* is often present at low abundance.
 
 [diagnostic_plot]
 
@@ -56,7 +56,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Dynamics
 
-**Dynamics Description:** The [unit_name] type is fairly stable. Change in site hydrology is the most likely driver of successional change with drying promoting the development of tussocks and wetting promoting the development of a wet sedge understory. Sites are not associated with riparian flooding.
+**Dynamics Description:** The [unit_name] type is fairly stable. Change in site hydrology is the most likely driver of successional change, with drying promoting the development of tussocks and wetting promoting the development of a wet sedge understory. Sites are not associated with riparian flooding.
 
 ## Range
 
