@@ -1,4 +1,4 @@
-# Description Data Entry Template
+# Description Data Entry
 
 ## Overview
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is indicated by the willow, *Salix alaxensis* with other willow species, namely *Salix richardsonii, *Salix niphoclada*, and *Salix glauca* codominating. Diagnostic herbaceous plants include the forbs *Eurybia sibirica*, *Artemisia tilesii*, *Parnassia kotzebuei*, *Tanacetum bipinnatum* ssp. *bipinnatum*, and *Chamerion latifolium*, the horsetails *Equisetum arvense* and *Equisetum variegatum*, and the grass *Festuca rubra*. On substrates that experience infrequent flooding, dwarf and prostrate shrubs including *Salix reticulata*, *Dryas integrifolia,* and *Arctous rubra* may establish in the understory. Bryophytes include *Sanionia uncinata, Brachythecium mildeanum, Leptobryum pyriforme, Campylium stellatum*, and *Bryum pseudotriquetrum*; dry site lichens, such as those in the *Stereocaulon* genus, may be present at low abundance.
+**Floristics Description:** This [level] is indicated by the willow, *Salix alaxensis* with other willow species, namely *Salix richardsonii*, *Salix niphoclada*, and *Salix glauca* codominating. Diagnostic herbaceous plants include the forbs *Eurybia sibirica*, *Artemisia tilesii*, *Parnassia kotzebuei*, *Tanacetum bipinnatum* ssp. *bipinnatum*, and *Chamerion latifolium*, the horsetails *Equisetum arvense* and *Equisetum variegatum*, and the grass *Festuca rubra*. On substrates that experience infrequent flooding, dwarf and prostrate shrubs including *Salix reticulata*, *Dryas integrifolia,* and *Arctous rubra* may establish in the understory. Bryophytes include *Sanionia uncinata, Brachythecium mildeanum, Leptobryum pyriforme, Campylium stellatum*, and *Bryum pseudotriquetrum*; dry site lichens, such as those in the *Stereocaulon* genus, may be present at low abundance.
 
 [diagnostic_plot]
 
@@ -92,13 +92,13 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 **Map Version**: 3.0
 
-**Described By:** Rhiannon C. Glover
+**Described By:** Rhiannon C. Glover, Lindsey A. Flagstad
 
 **Date:** 2026-03-11
 
-**Last Revised by:** Lindsey A. Flagstad
+**Last Revised by:** Rhiannon C. Glover
 
-**Date:** 2026-07-16
+**Date:** 2026-09-02
 
 ## References
 
