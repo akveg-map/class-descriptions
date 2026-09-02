@@ -1,4 +1,4 @@
-# Description Data Entry Template
+# Description Data Entry
 
 ## Overview
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is dominated or co-dominated by the alder *Alnus alnobetula* ssp. *fruticosa* and a combination of willow species including *Salix alaxensis*, *Salix richardsonii*, *Salix niphoclada*, and *Salix glauca*. The presence of *Salix alaxensis* increases towards the active floodplain. Diagnostic herbaceous plants include the forbs *Eurybia sibirica*, *Artemisia tilesii*, *Parnassia kotzebuei*, *Tanacetum bipinnatum* ssp. *bipinnatum*, *Chamerion latifolium*, *Astragalus alpinus, Astragalus umbellatus, Polemonium acutiflorum*, the horsetails *Equisetum arvense* and *E. variegatum*, and the grass *Festuca rubra*. The presence of dwarf shrubs and mosses increases in settings that are either rarely flooded or seasonally saturated. Here, common shrubs are *Arctous rubra*, *Dryas integrifolia*, and *Salix reticulata*, and bryophytes include *Tomentypnum nitens, Hylocomium splendens, Aulacomnium palustre, Aulacomnium turgidum*, and *Campylium stellatum*.
+**Floristics Description:** This [level] is dominated or co-dominated by the alder *Alnus alnobetula* ssp. *fruticosa* and a combination of willow species including *Salix alaxensis*, *Salix richardsonii*, *Salix niphoclada*, and *Salix glauca*. The presence of *Salix alaxensis* increases towards the active floodplain. Diagnostic herbaceous plants include the forbs *Eurybia sibirica*, *Artemisia tilesii*, *Parnassia kotzebuei*, *Tanacetum bipinnatum* ssp. *bipinnatum*, *Chamerion latifolium*, *Astragalus alpinus, Astragalus umbellatus, Polemonium acutiflorum*, the horsetails *Equisetum arvense* and *E. variegatum*, and the grass *Festuca rubra*. The presence of dwarf shrubs and mosses increases in settings that are either rarely flooded or seasonally saturated. Highly constant dwarf shrubs are *Arctous rubra*, *Dryas integrifolia*, and *Salix reticulata*, and the mosses *Tomentypnum nitens, Hylocomium splendens, Aulacomnium palustre, Aulacomnium turgidum*, and *Campylium stellatum*.
 
 [diagnostic_plot]
 
