@@ -26,7 +26,7 @@
 
 ### Structure
 
-**Structural Description:** This [level] consists of a sparse distribution of prostrate shrubs, cespitose graminoids, rosette or cushion-forming forbs, and nonvascular species. Crustose lichens are a common component of exposed, rocky sites with the participation of dry-site mosses and fruticose lichens increasing with reduced exposure. Dwarf and larger-stature shrubs are absent. 
+**Structural Description:** This [level] consists of a sparse distribution of prostrate shrubs, cespitose graminoids, rosette or cushion-forming forbs, and nonvascular species. Crustose lichens are a common component of exposed, rocky sites, with the participation of dry-site mosses and fruticose lichens increasing with reduced exposure. Dwarf and larger-stature shrubs are absent. 
 
 **Structural Class:** barrens or partially vegetated
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is indicated by a high cover of bare ground or exposed rock with variable combinations of vascular plants, lichens, and mosses establishing in protected microsites. This summary is oriented towards exposed high elevation sites where characteristic shrubs are *Kalmia procumbens*, *Arctos alpina*, *Salix phlebophylla*, and *Diapensia obovata*. Common forbs include *Silene acaulis* and *Minuartia arctica* with *Saxifraga oppositifolia*, *Physaria arctica*, and *Androsace chamaejasme* indicating calcareous bedrock. Graminoids such as *Carex scirpoidea*, *Carex microchaeta*, and *Heirochloë alpina* may be present with low cover. The crustose lichens *Umbilicaria* species, *Rhizocarpon geographicum*, *Ophiopharma lapponica*, and species in the *Pertusaria* genus are constant components of the type and may occur at high cover on exposed, rocky sites. The participation of fruticose lichens such as *Cladonia stellaris*, *Flavocetraria nivalis*, *Flavocetraria cucullata*, *Vulpicida juniperina*, and *Alectoria ochroleuca*, and the dry-site moss, *Racomitrium lanuginosum* increases with protection.
+**Floristics Description:** This [level] is indicated by a high cover of bare ground or exposed rock with variable combinations of vascular plants, lichens, and mosses establishing in protected microsites. This summary is oriented towards exposed high-elevation sites where characteristic shrubs are *Kalmia procumbens*, *Arctous alpina*, *Salix phlebophylla*, and *Diapensia obovata*. Common forbs include *Silene acaulis* and *Minuartia arctica*, with *Saxifraga oppositifolia*, *Physaria arctica*, and *Androsace chamaejasme* indicating calcareous bedrock. Graminoids such as *Carex scirpoidea*, *Carex microchaeta*, and *Heirochloë alpina* may be present with low cover. The crustose lichens *Umbilicaria* species, *Rhizocarpon geographicum*, *Ophiopharma lapponica*, and species in the *Pertusaria* genus are constant components of the type and may occur at high cover on exposed, rocky sites. The participation of fruticose lichens such as *Cladonia stellaris*, *Flavocetraria nivalis*, *Flavocetraria cucullata*, *Vulpicida juniperina*, and *Alectoria ochroleuca*, and the dry-site moss, *Racomitrium lanuginosum*, increases with protection.
 
 [diagnostic_plot]
 
@@ -56,15 +56,15 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Dynamics
 
-**Dynamics Description:**  This is a late-successional type where the development of vegetation is controlled by the climatic factors of cold winter temperatures and intense summer solar radiation and may be reset by site factors such as exposure to desiccating winds, avalanche, and colluvial processes.  Permafrost is present, but ice-poor, thus perigacial processes are relatively inactive. 
+**Dynamics Description:**  This is a late-successional type where the development of vegetation is controlled by the climatic factors of cold winter temperatures and intense summer solar radiation and may be reset by site factors such as exposure to desiccating winds, avalanche, and colluvial processes.  Permafrost is present, but ice-poor; thus perigacial processes are relatively inactive. 
 
-**Range Description:** Occurring throughout the Arctic bioclimatic zone, broadly associated with high elevation sites in the Brooks Range.
+**Range Description:** Occurring throughout the Arctic bioclimatic zone, broadly associated with high-elevation sites in the Brooks Range.
 
 **Rarity on Landscape:** Uncommon
 
 ## Environment
 
-**Environment Description**: This [level] develops on sites that are too unstable or exposed to support continuous vegetation. Typical settings include bedrock outcrops, cliffs, and rocky high elevation summits, ridges, and sideslopes; less common settings include the active portions of inland sand dunes and the margins of streams, rivers, ponds, and lakes. Owing to disturbance, there is minimal soil development. Thin organics may accumulate over coarse mineral substrates in protected pockets of otherwise exposed, high elevation sites. Here soils are patchy, excessively drained and characterized by low fertility and productivity. Depending on parent material, soils may be circumneutral or acidic.
+**Environment Description**: This [level] develops on sites that are too unstable or exposed to support continuous vegetation. Typical settings include bedrock outcrops, cliffs, and rocky high-elevation summits, ridges, and sideslopes; less common settings include the active portions of inland sand dunes and the margins of streams, rivers, ponds, and lakes. Owing to disturbance, there is minimal soil development. Thin organics may accumulate over coarse mineral substrates in protected pockets of otherwise exposed, high-elevation sites. Here, soils are patchy, excessively drained, and characterized by low fertility and productivity. Depending on parent material, soils may be circumneutral or acidic.
 
 **Physiography:** [physiography_text]
 
