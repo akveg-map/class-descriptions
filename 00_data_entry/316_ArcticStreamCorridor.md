@@ -1,4 +1,4 @@
-# Description Data Entry Template
+# Description Data Entry
 
 ## Overview
 
@@ -40,7 +40,7 @@ Figure 1. Plot of structural group proportions for [unit_name].
 
 ### Floristics
 
-**Floristics Description:** This [level] is indicated by an open to closed canopy of willow and/or birch shrubs. *Salix pulchra,* *Salix richardsonii*, *Betula nana*, and *Betula glandulosa* are characteristic of open-low shrub canopies underlain by near-surface permafrost. Along perennial streams with a deeper active layer, taller shrubs such as *Salix alaxensis* and *Alnus viridis* ssp. *fruticosa* establish. The understory shrubs *Rhododendron tomentosum* ssp*. decumbens, Vaccinium vitis-idaea,* and *Empetrum nigrum* occur at low cover but show high constancy*.* The wetland sedges *Eriophorum angustifolium* and *Carex aquatilis* often occur in the wettest portion of the water track with *Rubus chamaemorus*, *Calamagrostis canadensis,* and *Equisetum arvense* occurring in the drier margins of the water track or riparian fringe. Mosses in the *Hylocomium, Sphagnum*, *Aluocomium*, and *Dicranum* genera show relatively high cover and constancy. Lichens may occur in low abundance.
+**Floristics Description:** This [level] is indicated by an open-to-closed canopy of willow and/or birch shrubs. *Salix pulchra*, *Salix richardsonii*, *Betula nana*, and *Betula glandulosa* are characteristic of open-low shrub canopies underlain by near-surface permafrost. Along perennial streams with a deeper active layer, taller shrubs such as *Salix alaxensis* and *Alnus alnobetula* ssp. *fruticosa* establish. The understory shrubs *Rhododendron tomentosum* ssp. *decumbens*, *Vaccinium vitis-idaea*, and *Empetrum nigrum* occur at low cover but show high constancy. The wetland sedges *Eriophorum angustifolium* and *Carex aquatilis* often occur in the wettest portion of the water track, with *Rubus chamaemorus*, *Calamagrostis canadensis,* and *Equisetum arvense* occurring in the drier margins of the water track or riparian fringe. Mosses in the *Hylocomium, Sphagnum*, *Aulacomnium*, and *Dicranum* genera show relatively high cover and constancy. Lichens may occur in low abundance.
 
 [diagnostic_plot]
 
@@ -66,7 +66,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Environment
 
-**Environment Description**: The [unit name] type occurs at mid elevations, on gentle slopes, and is associated with water tracks and perennial streams, thus the pattern is dendritic to linear. Water tracks develop where water from seasonal snowmelt and summer rainfall drains along subsurface depressions that are perched above ice-rich permafrost, but below the ground surface. Perennial streams typically develop downgradient from water tracks where the volume of subsurface flow exceeds the capacity of the active layer and daylights as a narrow and often incised rivulet. Where this surface water intersects polygonal tundra, a beaded stream, where the 'beads' occupy ice wedge junctions and the 'strings' flow along polygonal troughs, may develop. Both water tracks and perennial streams and are characterized by deeper seasonal thaw, warmer soil temperatures, and higher soil moisture, and nutrient content relative to adjacent tundra. Consequently, vegetation productivity and shrub height is greater along these drainageways. Soils are consistently organic overlying a silty mineral horizon that typically extends to the permafrost contact. 
+**Environment Description**: The [unit name] type occurs at mid elevations, on gentle slopes, and is associated with water tracks and perennial streams; thus, the pattern is dendritic to linear. Water tracks develop where water from seasonal snowmelt and summer rainfall drains along subsurface depressions that are perched above ice-rich permafrost, but below the ground surface. Perennial streams typically develop downgradient from water tracks where the volume of subsurface flow exceeds the capacity of the active layer and daylights as a narrow and often incised rivulet. Where this surface water intersects polygonal tundra, a beaded stream, where the 'beads' occupy ice wedge junctions and the 'strings' flow along polygonal troughs, may develop. Both water tracks and perennial streams are characterized by deeper seasonal thaw, warmer soil temperatures, and higher soil moisture and nutrient content relative to adjacent tundra. Consequently, vegetation productivity and shrub height are greater along these drainageways. Soils are consistently organic overlying a silty mineral horizon that typically extends to the permafrost contact. 
 
 **Physiography:** [physiography_text]
 
@@ -92,13 +92,13 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 **Map Version**: 3.0
 
-**Described By:** Rhiannon C. Glover
+**Described By:** Rhiannon C. Glover, Lindsey A. Flagstad
 
 **Date:** 2026-03-17
 
-**Last Revised by:** Lindsey A. Flagstad
+**Last Revised by:** Rhiannon C. Glover
 
-**Date:** 2026-07-13
+**Date:** 2026-09-02
 
 ## References
 
