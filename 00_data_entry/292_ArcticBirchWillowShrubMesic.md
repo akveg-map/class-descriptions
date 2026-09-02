@@ -96,7 +96,7 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 **Date:** 2016-01-16
 
-**Last Revised by:** Rhiannon C. Glover
+**Last Revised by:** Rhiannon C. Glover, Lindsey A. Flagstad
 
 **Date:** 2026-09-02
 
