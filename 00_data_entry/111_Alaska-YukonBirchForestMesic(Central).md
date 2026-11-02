@@ -91,7 +91,7 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 
 ## Metadata
 
-**Map Version**: *Enter the version of the map that this description is current with.*
+**Map Version**: 3.0
 
 **Described By:** D. Faber-Langendoen, P.J. McIntyre, T. Jorgenson, M.K. Raynolds, L. Saperstein, B. Schulz, A. Wells
 
