@@ -67,7 +67,7 @@ Figure 3. Plot of range from 25th percentile to 75th percentile and mean for ind
 
 ## Environment
 
-**Environment Description**: This type occurs on upland north-, east- and west- facing side slopes, toe slopes, and valley bottoms. It is primarily associated with glacial deposits, loess, colluvium, or residual soils. Soils are mesic to moist, well-drained silt loams that range from acidic [LF1.1]to circumacidic. As organic materials are slow to accumulate, organic horizons are typically thin and consist primarily of decomposing birch leaves. Permafrost is not typically present. 
+**Environment Description**: This type occurs on upland north-, east-, and west- facing side slopes, toe slopes, and valley bottoms. It is primarily associated with glacial deposits, loess, colluvium, or residual soils. Soils are mesic to moist, well-drained silt loams that range from acidic to circumacidic. As organic materials are slow to accumulate, organic horizons are typically thin and consist primarily of decomposing birch leaves. Permafrost is not typically present. 
 
 **Physiography:** [physiography_text]
 
