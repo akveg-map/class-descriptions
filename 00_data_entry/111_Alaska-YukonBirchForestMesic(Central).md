@@ -9,7 +9,7 @@
 
 **Code:** 111
 
-**Concept:** This [level] encompasses highly productive, deciduous forests indicated by open to closed canopies of Alaska paper birch (Betula neoalaskana) and deciduous shrubs that establish on mesic, well-drained substrates in upland settings of the boreal region of central interior Alaska and Yukon.
+**Concept:** This [level] encompasses highly productive, deciduous forests indicated by open to closed canopies of Alaska paper birch (*Betula neoalaskana*) and deciduous shrubs that establish on mesic, well-drained substrates in upland settings of the boreal region of central interior Alaska and Yukon.
 
 **Photos:** *Enter a comma separated list of three to five representative photos. Use the photo file path or server url.*
 
