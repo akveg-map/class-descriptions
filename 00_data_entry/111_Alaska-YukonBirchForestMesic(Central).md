@@ -104,5 +104,6 @@ Table 3. Mean and range for quantitative environmental characteristics for [unit
 ## References
 
 Jorgensen, T. and D. Meidinger. 2015. The Alaska Yukon Region of the Circumboreal Vegetation map (CBVM). CAFF Strategies Series Report. Conservation of Arctic Flora and Fauna, Akureyri, Iceland. ISBN: 978-9935-431-48-6
+
 Jorgenson MT, Roth JE, Raynolds MK, et al. 1999. An ecological land survey for Fort Wainwright, Alaska. CRREL report; 99-9.
 
