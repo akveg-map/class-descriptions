@@ -105,7 +105,7 @@ site_visit_data = query_to_dataframe(database_connection, site_visit_query)
 
 # Join site_visit and site tables
 print('\tJoining site and site visit tables...')
-site_visit_data = pd.merge(site_visit_data, site_data, on='site_code', how='left')
+site_visit_data = pd.merge(site_visit_data, site_data, on='site_code', how='outer')
 
 # Assign observation year
 site_visit_data['observe_datetime'] = pd.to_datetime(site_visit_data['observe_date'])
@@ -240,11 +240,43 @@ missing_dimensions = site_visit_data[site_visit_data['plot_radius_m'] == 0]['plo
 if len(missing_dimensions) > 0:
     sys.exit(f'Warning: missing dimensions for: {missing_dimensions}')
 
+# Define list of selected site visits
+site_visit_list = site_visit_data['site_visit_code'].unique()
+
 # Read vegetation data from AKVEG Database
 print('\tQuerying vegetation data...')
 with open(vegetation_file, 'r') as vegetation_read:
     vegetation_query = vegetation_read.read()
 vegetation_data = query_to_dataframe(database_connection, vegetation_query)
+vegetation_data = vegetation_data[vegetation_data['site_visit_code'].isin(site_visit_list)]
+
+# Read abiotic top cover data from AKVEG Database
+print('\tQuerying abiotic top cover data...')
+with open(abiotic_file, 'r') as abiotic_read:
+    abiotic_query = abiotic_read.read()
+abiotic_data = query_to_dataframe(database_connection, abiotic_query)
+abiotic_data = abiotic_data[abiotic_data['site_visit_code'].isin(site_visit_list)]
+
+# Create list of unique site visits
+print('\tChecking data completeness...')
+vegetation_site_visits = vegetation_data['site_visit_code']
+abiotic_site_visits = abiotic_data['site_visit_code']
+veg_site_visits = pd.concat([vegetation_site_visits, abiotic_site_visits], axis=0).to_frame()
+veg_site_list = veg_site_visits['site_visit_code'].unique()
+
+# Check that all site visits in the site visit data have corresponding data in either vegetation or abiotic cover
+missing_cover_sites = site_visit_data[~site_visit_data['site_visit_code'].isin(veg_site_list)]
+missing_cover_sites = missing_cover_sites[missing_cover_sites['project_code'] != 'akveg_absences']
+#### REMOVE IN FUTURE VERSION ####
+missing_site_list = missing_cover_sites['site_visit_code'].unique()
+site_visit_data = site_visit_data[~site_visit_data['site_visit_code'].isin(missing_site_list)]
+missing_cover_sites = site_visit_data[~site_visit_data['site_visit_code'].isin(veg_site_list)]
+missing_cover_sites = missing_cover_sites[missing_cover_sites['project_code'] != 'akveg_absences']
+#### END REMOVE SECTION ####
+if len(missing_cover_sites) > 0:
+    sys.exit(f'Warning: {len(missing_cover_sites)} site visits missing from site_visit_data.')
+if len(site_visit_data) != len(veg_site_list):
+    sys.exit(f'Warning: site visits in site_visit_data and cover data do not match.')
 
 # Create cover type per site visit
 cover_type = vegetation_data[['site_visit_code', 'cover_type']].drop_duplicates()
@@ -287,47 +319,6 @@ with open(taxa_file, 'r') as taxa_read:
     taxa_query = taxa_read.read()
 taxa_data = query_to_dataframe(database_connection, taxa_query)
 
-# Read abiotic top cover data from AKVEG Database
-print('\tQuerying abiotic top cover data...')
-with open(abiotic_file, 'r') as abiotic_read:
-    abiotic_query = abiotic_read.read()
-abiotic_data = query_to_dataframe(database_connection, abiotic_query)
-
-# Create list of unique site visits
-print('\tChecking data completeness...')
-vegetation_site_visits = vegetation_data['site_visit_code']
-abiotic_site_visits = abiotic_data['site_visit_code']
-site_visit_check = pd.concat([vegetation_site_visits, abiotic_site_visits], axis=0).to_frame()
-site_visit_check = site_visit_check['site_visit_code'].unique()
-
-# Check that all site visits in the site visit data have corresponding data in either vegetation or abiotic cover
-missing_cover_sites = site_visit_data[~site_visit_data['site_visit_code'].isin(site_visit_check)]
-missing_cover_sites = missing_cover_sites[missing_cover_sites['project_code'] != 'akveg_absences']
-#### REMOVE IN FUTURE VERSION ####
-missing_cover_sites = missing_cover_sites[['site_visit_code']]
-site_visit_data = pd.merge(site_visit_data, missing_cover_sites, on='site_visit_code', how='left_anti')
-vegetation_site_visits = vegetation_data['site_visit_code']
-abiotic_site_visits = abiotic_data['site_visit_code']
-site_visit_check = pd.concat([vegetation_site_visits, abiotic_site_visits], axis=0).to_frame()
-site_visit_check = site_visit_check['site_visit_code'].unique()
-missing_cover_sites = site_visit_data[~site_visit_data['site_visit_code'].isin(site_visit_check)]
-missing_cover_sites = missing_cover_sites[missing_cover_sites['project_code'] != 'akveg_absences']
-#### END REMOVE SECTION ####
-if len(missing_cover_sites) > 0:
-    sys.exit(f'Warning: {len(missing_cover_sites)} site visits missing from site_visit_data.')
-
-# Check that all site visits in vegetation or abiotic cover have corresponding data in the site visit table
-veg_sites = pd.concat([vegetation_site_visits, abiotic_site_visits], axis=0).to_frame()
-missing_site_visits = veg_sites[~veg_sites['site_visit_code'].isin(site_visit_data['site_visit_code'].unique())]
-missing_site_visits = missing_site_visits['site_visit_code'].unique()
-
-# Troubleshoot missing sites
-site_visit_full = query_to_dataframe(database_connection, site_visit_query)
-missing_site_visits = site_visit_full[site_visit_full['site_visit_code'].isin(missing_site_visits)]
-if len(missing_site_visits) > 0:
-    sys.exit(f'Warning: {len(missing_site_visits)} site visits missing from site_visit_data.')
-end_timing(start_time)
-
 #### QUERY OTHER AKVEG DATA
 ####------------------------------
 print('Processing metadata and environmental data...')
@@ -344,42 +335,49 @@ print('\tQuerying whole tussock data...')
 with open(tussock_file, 'r') as tussock_read:
     tussock_query = tussock_read.read()
 tussock_data = query_to_dataframe(database_connection, tussock_query)
+tussock_data = tussock_data[tussock_data['site_visit_code'].isin(site_visit_list)]
 
 # Read ground cover data from AKVEG Database
 print('\tQuerying ground cover data...')
 with open(ground_file, 'r') as ground_read:
     ground_query = ground_read.read()
 ground_data = query_to_dataframe(database_connection, ground_query)
+ground_data = ground_data[ground_data['site_visit_code'].isin(site_visit_list)]
 
 # Read structural group cover data from AKVEG Database
 print('\tQuerying structural group cover data...')
 with open(structural_file, 'r') as structural_read:
     structural_query = structural_read.read()
 structural_data = query_to_dataframe(database_connection, structural_query)
+structural_data = structural_data[structural_data['site_visit_code'].isin(site_visit_list)]
 
 # Read shrub structure data from AKVEG Database
 print('\tQuerying shrub structure data...')
 with open(shrub_file, 'r') as shrub_read:
     shrub_query = shrub_read.read()
 shrub_data = query_to_dataframe(database_connection, shrub_query)
+shrub_data = shrub_data[shrub_data['site_visit_code'].isin(site_visit_list)]
 
 # Read environment data from AKVEG Database
 print('\tQuerying environment data...')
 with open(environment_file, 'r') as environment_read:
     environment_query = environment_read.read()
 environment_data = query_to_dataframe(database_connection, environment_query)
+environment_data = environment_data[environment_data['site_visit_code'].isin(site_visit_list)]
 
 # Read soil metrics data from AKVEG Database
 print('\tQuerying soil metrics data...')
 with open(soilmetrics_file, 'r') as soilmetrics_read:
     soilmetrics_query = soilmetrics_read.read()
 soilmetrics_data = query_to_dataframe(database_connection, soilmetrics_query)
+soilmetrics_data = soilmetrics_data[soilmetrics_data['site_visit_code'].isin(site_visit_list)]
 
 # Read soil horizons data from AKVEG Database
 print('\tQuerying soil horizons data...')
 with open(soilhorizons_file, 'r') as soilhorizons_read:
     soilhorizons_query = soilhorizons_read.read()
 soilhorizons_data = query_to_dataframe(database_connection, soilhorizons_query)
+soilhorizons_data = soilhorizons_data[soilhorizons_data['site_visit_code'].isin(site_visit_list)]
 
 # Export data to csv files
 print('\tExporting data to csv...')
