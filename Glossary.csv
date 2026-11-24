@@ -29,7 +29,7 @@ formation subclass,"The second level in the NVC natural vegetation hierarchy, in
 frequency,Percentage of occurrence of a species in a series of samples of uniform size contained in a single stand.,Daubenmire 1978
 graminoid,"A non-aquatic, flowering herb with relatively long, narrow leaves and inconspicuous flowers with parts reduced to bracts. Includes grasses, sedges, rushes, and arrowgrasses",
 group,"The sixth level in the NVC natural vegetation hierarchy, in which each vegetation unit is defined by a group of plant communities with a common set of growth forms and diagnostic species or taxa (including several character species of the dominant growth forms), preferentially sharing a similar set of regional edaphic, topographic, and disturbance factors.","cf. Pignatti et al. 1995, Specht and Specht 2001"
-growth degree days (GDD),"A measure of heat accumulation used to predict the rate of development in plants and animals." 
+growth degree days (GDD),"A measure of heat accumulation used to predict the rate of development in plants and animals.",
 growth form,"The shape or appearance of a plant reflecting growing conditions and genetics. Growth form is usually consistent within a species, but may vary under extremes of environment. Growth forms determine the visible structure or physiognomy of plant communities.","Mueller-Dombois and Ellenberg 1974, Whittaker 1973"
 habitat,"A general term referring to the locality, site and particular type of local environment occupied by an organisim or community",
 herb,"A vascular plant without perennial aboveground woody stems, with perennating buds borne at or below the ground surface. Includes forbs (both flowering forbs and spore-bearing ferns), graminoids, and herbaceous vines.","Whittaker 1975, FGDC 1997"
