@@ -48,6 +48,7 @@ soil_input = os.path.join(archive_folder, '13_soil_metrics.csv')
 
 # Define output data
 site_visit_output = os.path.join(class_folder, 'site_visit_type_assignments.csv')
+type_summary_output = os.path.join(class_folder, 'type_count_summary.csv')
 vascular_output = os.path.join(class_folder, 'veg_vascular_compiled.csv')
 bryophyte_output = os.path.join(class_folder, 'veg_bryophyte_compiled.csv')
 lichen_output = os.path.join(class_folder, 'veg_lichen_compiled.csv')
@@ -161,11 +162,15 @@ vegetation_data = pd.merge(left=vegetation_data,
                            left_on='name_accepted',
                            right_on='taxon_name',
                            how='left')
+vegetation_data = pd.merge(left=vegetation_data,
+                           right=site_visit_data,
+                           on='site_visit_code',
+                           how='left')
 
 # Select vegetation data fields
 vegetation_data = vegetation_data[[
     'site_visit_code', 'name_accepted', 'cover_percent', 'taxon_genus',
-    'taxon_family', 'taxon_level', 'taxon_category', 'taxon_habit'
+    'taxon_family', 'taxon_level', 'taxon_category', 'taxon_habit', 'map_class'
 ]]
 
 # Filter data appropriate for vascular plant analyses
@@ -190,16 +195,16 @@ bryophyte_data = vegetation_data[vegetation_data['site_visit_code'].isin(
 bryophyte_data = bryophyte_data[bryophyte_data['taxon_category'].isin([
     'liverwort', 'moss', 'hornwort', 'functional group', 'unknown'
 ])]
-bryophyte_data = bryophyte_data[(bryophyte_data['taxon_category'] != 'functional group')
-                                | ((bryophyte_data['taxon_category'] != 'functional group')
-                                   & (bryophyte_data['name_accepted'].isin([
-            'non-thalloid liverwort', 'thalloid liverwort', 'feathermoss (other)',
-            'feathermoss (N-fixing)', 'Sphagnum moss', 'turf moss'
-        ])))
-                                | ((bryophyte_data['taxon_category'] != 'unknown')
-                                   & (bryophyte_data['name_accepted'].isin([
-            'liverwort', 'moss'
-        ])))]
+bryophyte_data = bryophyte_data[
+    (~bryophyte_data['taxon_category'].isin(['functional group', 'unknown']))
+    | ((bryophyte_data['taxon_category'] == 'functional group')
+       & (bryophyte_data['name_accepted'].isin([
+           'non-thalloid liverwort', 'thalloid liverwort', 'feathermoss (other)',
+           'feathermoss (N-fixing)', 'Sphagnum moss', 'turf moss'
+       ])))
+    | ((bryophyte_data['taxon_category'] == 'unknown')
+       & (bryophyte_data['name_accepted'].isin(['liverwort', 'moss'])))
+]
 
 # Perform bryophyte aggregation (Dynamically apply taxon_genus if it exists)
 bryophyte_data['name_accepted'] = np.where(
@@ -212,33 +217,38 @@ bryophyte_data['name_accepted'] = np.where(
 bryophyte_data = (bryophyte_data.groupby(['site_visit_code', 'name_accepted'])['cover_percent']
                   .sum()
                   .reset_index())
-
 bryophyte_data = pd.merge(left=bryophyte_data,
                           right=taxa_data,
                           left_on='name_accepted',
                           right_on='taxon_name',
                           how='left')
+bryophyte_data = pd.merge(left=bryophyte_data,
+                           right=site_visit_data,
+                           on='site_visit_code',
+                           how='left')
 bryophyte_data = bryophyte_data[[
     'site_visit_code', 'name_accepted', 'cover_percent',
-    'taxon_genus', 'taxon_level', 'taxon_category', 'taxon_habit'
+    'taxon_genus', 'taxon_level', 'taxon_category', 'taxon_habit', 'map_class'
 ]]
 
 # Filter data appropriate for lichen analyses
 lichen_data = vegetation_data[vegetation_data['site_visit_code'].isin(
     lichen_sites['site_visit_code'].tolist()
 )]
-lichen_data = lichen_data[lichen_data['taxon_category'] == 'lichen']
-lichen_data = lichen_data[(lichen_data['taxon_category'] != 'functional group')
-                          | ((lichen_data['taxon_category'] != 'functional group')
-                             & (lichen_data['name_accepted'].isin([
-            'arboreal lichen', 'crustose lichen (orange)', 'crustose lichen (non-orange)',
-            'foliose lichen (other)', 'foliose lichen (N-fixing)', 'forage lichen',
-            'fruticose lichen (N-fixing)', 'fruticose lichen (other)'
-        ])))
-                          | ((lichen_data['taxon_category'] != 'unknown')
-                             & (lichen_data['name_accepted'].isin([
-            'lichen', 'crustose lichen', 'fruticose lichen', 'foliose lichen'
-        ])))]
+lichen_data = lichen_data[lichen_data['taxon_category'].isin(['lichen', 'functional group', 'unknown'])]
+lichen_data = lichen_data[
+    (lichen_data['taxon_category'] == 'lichen')
+    | ((lichen_data['taxon_category'] == 'functional group')
+       & (lichen_data['name_accepted'].isin([
+           'arboreal lichen', 'crustose lichen (orange)', 'crustose lichen (non-orange)',
+           'foliose lichen (other)', 'foliose lichen (N-fixing)', 'forage lichen',
+           'fruticose lichen (N-fixing)', 'fruticose lichen (other)'
+       ])))
+    | ((lichen_data['taxon_category'] == 'unknown')
+       & (lichen_data['name_accepted'].isin([
+           'lichen', 'crustose lichen', 'fruticose lichen', 'foliose lichen'
+       ])))
+]
 
 # Perform lichen aggregation (Dynamically apply taxon_genus if it exists)
 lichen_data['name_accepted'] = np.where(
@@ -251,39 +261,41 @@ lichen_data['name_accepted'] = np.where(
 lichen_data = (lichen_data.groupby(['site_visit_code', 'name_accepted'])['cover_percent']
                .sum()
                .reset_index())
-
 lichen_data = pd.merge(left=lichen_data,
                        right=taxa_data,
                        left_on='name_accepted',
                        right_on='taxon_name',
                        how='left')
+lichen_data = pd.merge(left=lichen_data,
+                       right=site_visit_data,
+                       on='site_visit_code',
+                       how='left')
 lichen_data = lichen_data[[
     'site_visit_code', 'name_accepted', 'cover_percent',
-    'taxon_genus', 'taxon_level', 'taxon_category', 'taxon_habit'
+    'taxon_genus', 'taxon_level', 'taxon_category', 'taxon_habit', 'map_class'
 ]]
 end_timing(start_time)
 
 #### QUALITY CONTROL VALID SITES
 ####------------------------------
 
+# Read diagnostic schema data
+schema_diagnostic = pd.read_csv(diagnostic_input)[
+    ['target', 'constituents']].rename(columns={'target': 'diagnostic set'}).dropna()
+
 # Create an empty list to store the valid sites
 valid_site_list = []
+start_time = time.time()
 
 # Process site visits for each type
 for type_code in code_list:
     # Identify type name and structural class
     type_name = schema_data.loc[schema_data['code'] == type_code, 'map_class'].item()
     struc_class = schema_data.loc[schema_data['code'] == type_code, 'structural_class'].item()
-    start_time = time.time()
 
     # Isolate data for type
     type_data = site_visit_data[site_visit_data['code'] == type_code].copy()
     type_site_list = type_data['site_visit_code'].unique()
-
-    # Skip summary if less than 5 sites are registered to the type
-    if len(type_data) < 5:
-        print(f'Too few site visits to summarize for {type_name}.')
-        continue
 
     # Subset data to type site visit list
     print(f'Summarizing data for {type_name} ({len(type_data)} site visits)...')
@@ -291,10 +303,6 @@ for type_code in code_list:
     vascular_type = vascular_data[vascular_data['site_visit_code'].isin(type_site_list)]
     bryophyte_type = bryophyte_data[bryophyte_data['site_visit_code'].isin(type_site_list)]
     lichen_type = lichen_data[lichen_data['site_visit_code'].isin(type_site_list)]
-
-    # Read diagnostic schema data
-    schema_diagnostic = pd.read_csv(diagnostic_input)[
-        ['target', 'constituents']].rename(columns={'target': 'diagnostic set'}).dropna()
 
     # Join diagnostic schema to vascular data
     diagnostic_vascular = pd.merge(left=vascular_type,
@@ -320,12 +328,11 @@ for type_code in code_list:
                             .to_frame()
                             .reset_index())
 
-
     # Quality control for barren types
     if struc_class == 'Barren':
-        total_vegetation_cover = vegetation_type.groupby('site_visit_code')['cover_percent'].sum()
-        valid_sites = total_vegetation_cover[total_vegetation_cover < 20].index
-        type_site_list = [site for site in type_site_list if site in valid_sites]
+        total_veg_cover = vegetation_type.groupby('site_visit_code')['cover_percent'].sum()
+        invalid_sites = set(total_veg_cover[total_veg_cover >= 30].index)
+        type_site_list = [site for site in type_site_list if site not in invalid_sites]
 
     # Quality control for beach types
     if struc_class == 'Beach':
@@ -347,9 +354,9 @@ for type_code in code_list:
 
     # Quality control for freshwater marsh
     if struc_class == 'Freshwater Marsh':
-        total_bryophyte_cover = bryophyte_type.groupby('site_visit_code')['cover_percent'].sum()
-        valid_sites = total_bryophyte_cover[total_bryophyte_cover < 10].index
-        type_site_list = [site for site in type_site_list if site in valid_sites]
+        total_bryo_cover = bryophyte_type.groupby('site_visit_code')['cover_percent'].sum()
+        invalid_sites = set(total_bryo_cover[total_bryo_cover >= 12].index)
+        type_site_list = [site for site in type_site_list if site not in invalid_sites]
 
     # Quality control for graminoid wetland
     if struc_class == 'Graminoid Wetland':
@@ -358,11 +365,13 @@ for type_code in code_list:
         type_site_list = [site for site in type_site_list if site in valid_sites]
 
     # Quality control for herbaceous
-    if struc_class == 'Herbaceous':
-        woody_data = vegetation_type[vegetation_type['taxon_habit'].isin(['tree', 'shrub', 'dwarf shrub'])]
+    if (struc_class == 'Herbaceous') | (struc_class == 'Graminoid Wetland'):
+        woody_data = vegetation_type[vegetation_type['taxon_habit'].isin([
+            'tree', 'needleleaf tree', 'broadleaf tree', 'shrub', 'dwarf shrub'
+        ])]
         total_woody_cover = woody_data.groupby('site_visit_code')['cover_percent'].sum()
-        valid_sites = total_woody_cover[total_woody_cover < 20].index
-        type_site_list = [site for site in type_site_list if site in valid_sites]
+        invalid_sites = set(total_woody_cover[total_woody_cover >= 20].index)
+        type_site_list = [site for site in type_site_list if site not in invalid_sites]
 
     # Quality control for mixed forest
     if struc_class == 'Mixed Forest':
@@ -400,27 +409,16 @@ for type_code in code_list:
 
     # Quality control for sphagnum peatland
     if struc_class == 'Sphagnum Peatland':
+        bryo_sites = set(diagnostic_bryophyte['site_visit_code'].unique())
         qc_data = diagnostic_bryophyte[diagnostic_bryophyte['diagnostic set'] == 'Sphagnum']
-        valid_sites = qc_data[qc_data['cover_percent'] >= 8]['site_visit_code'].unique()
-        type_site_list = [site for site in type_site_list if site in valid_sites]
+        valid_sites = set(qc_data[qc_data['cover_percent'] >= 8]['site_visit_code'].unique())
+        type_site_list = [site for site in type_site_list if (site not in bryo_sites) or (site in valid_sites)]
 
     # Quality control for minerotrophic peatland
     if 'Minerotrophic' in type_name:
         qc_data = diagnostic_bryophyte[diagnostic_bryophyte['diagnostic set'] == 'Sphagnum']
-        valid_sites = qc_data[qc_data['cover_percent'] < 12]['site_visit_code'].unique()
-        type_site_list = [site for site in type_site_list if site in valid_sites]
-
-    # Quality control for tussock
-    if struc_class == 'Tussock':
-        qc_data = diagnostic_vascular[diagnostic_vascular['diagnostic set'] == 'Tussock Cottongrass']
-        valid_sites = qc_data[qc_data['cover_percent'] >= 6]['site_visit_code'].unique()
-        type_site_list = [site for site in type_site_list if site in valid_sites]
-
-    # Quality control for black spruce-tussock
-    if type_name == 'Alaska-Yukon Black Spruce-Tussock Peatland, Ombrotrophic':
-        qc_data = diagnostic_vascular[diagnostic_vascular['diagnostic set'] == 'Tussock Cottongrass']
-        valid_sites = qc_data[qc_data['cover_percent'] >= 6]['site_visit_code'].unique()
-        type_site_list = [site for site in type_site_list if site in valid_sites]
+        invalid_sites = set(qc_data[qc_data['cover_percent'] >= 8]['site_visit_code'].unique())
+        type_site_list = [site for site in type_site_list if site not in invalid_sites]
 
     # Quality control for aspen
     if 'Aspen' in type_name:
@@ -429,7 +427,7 @@ for type_code in code_list:
         type_site_list = [site for site in type_site_list if site in valid_sites]
 
     # Quality control for birch forest
-    if 'Birch Forest' in type_name:
+    if ('Birch' in type_name) & ('Forest' in type_name):
         qc_data = diagnostic_vascular[diagnostic_vascular['diagnostic set'] == 'Birch Trees']
         valid_sites = qc_data[qc_data['cover_percent'] >= 4]['site_visit_code'].unique()
         type_site_list = [site for site in type_site_list if site in valid_sites]
@@ -483,7 +481,7 @@ for type_code in code_list:
         type_site_list = [site for site in type_site_list if site in valid_sites]
 
     # Quality control Alaska Pacific Mountain Hemlock-Sitka/Lutz Spruce Forest Mesic
-    if type_name == 'Alaska-Yukon Black Spruce-Tussock Peatland, Ombrotrophic':
+    if type_name == 'Alaska Pacific Mountain Hemlock-Sitka/Lutz Spruce Forest Mesic':
         picsit_data = diagnostic_vascular[diagnostic_vascular['diagnostic set'] == 'Sitka Spruce']
         picgla_data = diagnostic_vascular[diagnostic_vascular['diagnostic set'] == 'White Spruce']
         picsit_sites = picsit_data[picsit_data['cover_percent'] >= 3]['site_visit_code'].unique()
@@ -512,6 +510,7 @@ for type_code in code_list:
     if (('Birch' in type_name)
             & ('(-Birch)' not in type_name)
             & ('Forest' not in type_name)
+            & ('Woodland' not in type_name)
             & ('Post-burn' not in type_name)):
         qc_data = diagnostic_vascular[diagnostic_vascular['diagnostic set'] == 'Birch Shrubs']
         valid_sites = qc_data[qc_data['cover_percent'] >= 5]['site_visit_code'].unique()
@@ -520,6 +519,7 @@ for type_code in code_list:
     # Quality control for willow shrubs
     if (('Willow' in type_name)
             & ('(-Willow)' not in type_name)
+            & ('(-Willow-Ericaceous)' not in type_name)
             & ('Dwarf' not in type_name)
             & ('Dune' not in type_name)
             & ('Post-burn' not in type_name)):
@@ -543,10 +543,10 @@ for type_code in code_list:
     if (('Ericaceous' in type_name)
             & ('(-Ericaceous)' not in type_name)
             & ('Lichen' not in type_name)
-            &  ('(-Willow-Ericaceous)' not in type_name)):
+            & ('(-Willow-Ericaceous)' not in type_name)):
         total_eric_data = vegetation_type[vegetation_type['taxon_family'] == 'Ericaceae']
         total_eric_cover = total_eric_data.groupby('site_visit_code')['cover_percent'].sum()
-        valid_sites = total_eric_cover[total_eric_cover < 20].index
+        valid_sites = total_eric_cover[total_eric_cover >= 5].index
         type_site_list = [site for site in type_site_list if site in valid_sites]
 
     # Quality control for Dryas dwarf shrubs
@@ -558,21 +558,26 @@ for type_code in code_list:
     # Quality control for willow dwarf shrubs
     if (('Willow' in type_name)
             & ('(-Willow)' not in type_name)
-            &  ('(-Willow-Ericaceous)' not in type_name)
+            & ('(-Willow-Ericaceous)' not in type_name)
             & ('Dwarf' in type_name)
             & ('Dune' not in type_name)):
         qc_data = diagnostic_vascular[diagnostic_vascular['diagnostic set'] == 'Willow Dwarf Shrubs']
         valid_sites = qc_data[qc_data['cover_percent'] >= 5]['site_visit_code'].unique()
         type_site_list = [site for site in type_site_list if site in valid_sites]
 
+    # Quality control for tussock
+    if ('Tussock' in type_name) & ('Non-Tussock' not in type_name):
+        qc_data = diagnostic_vascular[diagnostic_vascular['diagnostic set'] == 'Tussock Cottongrass']
+        valid_sites = qc_data[qc_data['cover_percent'] >= 5]['site_visit_code'].unique()
+        type_site_list = [site for site in type_site_list if site in valid_sites]
+
     # Quality control for wetland sedges
-    if (('Sedge' in type_name)
-            & (('Wet' in type_name) | ('Minerotrophic' in type_name))):
+    if (('Sedge' in type_name) & ('Wet' in type_name)):
         qc_data = diagnostic_vascular[diagnostic_vascular['diagnostic set'] == 'Wetland Sedges']
         valid_sites = qc_data[qc_data['cover_percent'] >= 5]['site_visit_code'].unique()
         type_site_list = [site for site in type_site_list if site in valid_sites]
 
-        # Quality control for Calamagrostis
+    # Quality control for Calamagrostis
     if 'Calamagrostis' in type_name:
         qc_data = diagnostic_vascular[diagnostic_vascular['diagnostic set'] == 'Mesic-wet Calamagrostis']
         valid_sites = qc_data[qc_data['cover_percent'] >= 5]['site_visit_code'].unique()
@@ -594,10 +599,29 @@ for type_code in code_list:
     valid_site_list.extend(type_site_list)
 
 # Subset the valid sites
-site_visit_data = site_visit_data[site_visit_data['site_visit_code'].isin(valid_site_list)]
+qc_site_visit_data = site_visit_data[site_visit_data['site_visit_code'].isin(valid_site_list)]
+
+# Summarize final site_visit_code counts for each map_class in schema_data
+original_counts = (site_visit_data.groupby('code')['site_visit_code']
+                   .nunique()
+                   .reset_index(name='original_n'))
+qc_counts = (qc_site_visit_data.groupby('code')['site_visit_code']
+             .nunique()
+             .reset_index(name='qc_n'))
+type_summary = pd.merge(left=schema_data[['code', 'map_class']],
+                        right=original_counts,
+                        on='code',
+                        how='left')
+type_summary = pd.merge(left=type_summary,
+                        right=qc_counts,
+                        on='code',
+                        how='left').sort_values(by='code')
+type_summary['original_n'] = type_summary['original_n'].fillna(0).astype(int)
+type_summary['qc_n'] = type_summary['qc_n'].fillna(0).astype(int)
 
 # Export compiled data to csv
-site_visit_data.to_csv(site_visit_output, header=True, index=False, sep=',', encoding='utf-8')
+qc_site_visit_data.to_csv(site_visit_output, header=True, index=False, sep=',', encoding='utf-8')
+type_summary.to_csv(type_summary_output, header=True, index=False, sep=',', encoding='utf-8')
 vascular_data.to_csv(vascular_output, header=True, index=False, sep=',', encoding='utf-8')
 bryophyte_data.to_csv(bryophyte_output, header=True, index=False, sep=',', encoding='utf-8')
 lichen_data.to_csv(lichen_output, header=True, index=False, sep=',', encoding='utf-8')

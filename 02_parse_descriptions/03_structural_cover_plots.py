@@ -60,7 +60,7 @@ structure_colors = {
     'Liverwort': '#C8F1E5',
     'Lichen': '#FFFFBE',
     'Water': '#BEE8FF',
-    'Litter (< 2mm)': '#CDAA66',
+    'Litter (< 2 mm)': '#CDAA66',
     'Dead Standing Woody Vegetation': '#897044',
     'Soil': '#828282',
     'Abiotic': '#828282',
@@ -90,7 +90,7 @@ translator = str.maketrans('', '', remove_chars)
 for type_code in code_list:
     # Identify type name
     type_name = schema_data.loc[schema_data['code'] == type_code, 'map_class'].item()
-    type_prefix = f'{str(type_code)}_{type_name.translate(translator)}'
+    type_prefix = f'{type_code:03d}_{type_name.translate(translator)}'
     start_time = time.time()
 
     # Isolate data for type
@@ -202,7 +202,8 @@ for type_code in code_list:
                                       .str.title()
                                       .replace('Spore-Bearing', 'Spore-bearing')
                                       .replace('Coniferous Tree', 'Needleleaf Tree')
-                                      .replace('Deciduous Tree', 'Broadleaf Tree'))
+                                      .replace('Deciduous Tree', 'Broadleaf Tree')
+                                      .replace('Litter (< 2 Mm)', 'Litter (< 2 mm)'))
 
     # Create structure treemap plot
     structure_plot = px.treemap(
@@ -231,5 +232,5 @@ for type_code in code_list:
 
     # Export to HTML (interactive) and PNG (publication)
     structure_output = os.path.join(output_folder, type_prefix + '_Structure.html')
-    structure_plot.write_html(structure_output, config={'responsive': True})
+    structure_plot.write_html(structure_output, include_plotlyjs='cdn', config={'responsive': True})
     end_timing(start_time)

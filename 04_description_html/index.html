@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKVEG Map Class Descriptions</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            margin: 40px auto;
+            padding: 0 20px;
+            max-width: 850px;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+        #searchInput {
+            flex: 1;
+            min-width: 240px;
+            padding: 8px 12px;
+            font-size: 0.95em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+        }
+        #searchInput:focus {
+            border-color: #337ab7;
+            box-shadow: 0 0 4px rgba(51, 122, 183, 0.3);
+        }
+        #matchCount {
+            font-size: 0.85em;
+            color: #666;
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+            font-size: 0.9em;
+        }
+        th, td { padding: 8px 12px; text-align: left; border-top: 1px solid #ddd; }
+        th { font-weight: bold; border-bottom: 2px solid #ddd; }
+        tbody tr:hover { background-color: #e6f7ff; }
+        a { color: #337ab7; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        #noResults {
+            display: none;
+            color: #666;
+            font-style: italic;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="search" id="searchInput" placeholder="Search by code or type name..." aria-label="Search map classes">
+        <span id="matchCount"></span>
+    </div>
+    <table class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Code</th>
+      <th>Type Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>111</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/111_AlaskaYukonBirchForestMesicCentral.html">Alaska-Yukon Birch Forest Mesic (Central)</a></td>
+    </tr>
+    <tr>
+      <td>252</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/252_ArcticNonTussockPolygonalComplex.html">Arctic Non-Tussock Polygonal Complex</a></td>
+    </tr>
+    <tr>
+      <td>254</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/254_ArcticTussockTundraPolygonalComplex.html">Arctic Tussock Tundra Polygonal Complex</a></td>
+    </tr>
+    <tr>
+      <td>256</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/256_ArcticPeatlandPolygonalComplex.html">Arctic Peatland Polygonal Complex</a></td>
+    </tr>
+    <tr>
+      <td>261</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/261_ArcticShrubSedgePeatlandOmbrotrophic.html">Arctic Shrub-Sedge Peatland, Ombrotrophic</a></td>
+    </tr>
+    <tr>
+      <td>262</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/262_ArcticDwarfShrubSedgeSphagnumPeatlandOmbrotrophic.html">Arctic (Dwarf Shrub) Sedge-Sphagnum Peatland, Ombrotrophic</a></td>
+    </tr>
+    <tr>
+      <td>263</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/263_ArcticBrownMossSedgePeatlandMinerotrophic.html">Arctic Brown Moss-Sedge Peatland, Minerotrophic</a></td>
+    </tr>
+    <tr>
+      <td>264</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/264_ArcticShrubSedgePeatlandMinerotrophic.html">Arctic Shrub-Sedge Peatland, Minerotrophic</a></td>
+    </tr>
+    <tr>
+      <td>272</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/272_ArcticTussockDwarfShrubTundra.html">Arctic Tussock Dwarf Shrub Tundra</a></td>
+    </tr>
+    <tr>
+      <td>274</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/274_ArcticTussockLowShrubTundra.html">Arctic Tussock Low Shrub Tundra</a></td>
+    </tr>
+    <tr>
+      <td>276</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/276_ArcticHerbaceousNonTussockTundra.html">Arctic Herbaceous Non-Tussock Tundra</a></td>
+    </tr>
+    <tr>
+      <td>281</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/281_ArcticHerbaceousInlandDune.html">Arctic Herbaceous Inland Dune</a></td>
+    </tr>
+    <tr>
+      <td>282</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/282_ArcticWillowInlandDune.html">Arctic Willow Inland Dune</a></td>
+    </tr>
+    <tr>
+      <td>283</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/283_ArcticDryasWillowDwarfShrub.html">Arctic Dryas (-Willow) Dwarf Shrub</a></td>
+    </tr>
+    <tr>
+      <td>284</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/284_ArcticEricaceousDryasDwarfShrub.html">Arctic Ericaceous (-Dryas) Dwarf Shrub</a></td>
+    </tr>
+    <tr>
+      <td>291</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/291_ArcticAlderWillowShrubMesic.html">Arctic Alder (-Willow) Shrub Mesic</a></td>
+    </tr>
+    <tr>
+      <td>292</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/292_ArcticBirchWillowShrubMesic.html">Arctic Birch (-Willow) Shrub Mesic</a></td>
+    </tr>
+    <tr>
+      <td>293</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/293_ArcticWillowLowShrubMesic.html">Arctic Willow Low Shrub Mesic</a></td>
+    </tr>
+    <tr>
+      <td>302</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/302_ArcticCoastalEstuarineBarren.html">Arctic Coastal &amp; Estuarine Barren</a></td>
+    </tr>
+    <tr>
+      <td>303</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/303_ArcticHerbaceousCoastalDuneBeach.html">Arctic Herbaceous Coastal Dune &amp; Beach</a></td>
+    </tr>
+    <tr>
+      <td>304</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/304_ArcticSaltintrudedTundra.html">Arctic Salt-intruded Tundra</a></td>
+    </tr>
+    <tr>
+      <td>305</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/305_ArcticCoastalDwarfWillowGraminoid.html">Arctic Coastal Dwarf Willow Graminoid</a></td>
+    </tr>
+    <tr>
+      <td>306</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/306_ArcticCoastalSaltMarsh.html">Arctic Coastal Salt Marsh</a></td>
+    </tr>
+    <tr>
+      <td>311</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/311_ArcticAlderWillowActiveFloodplain.html">Arctic Alder (-Willow) Active Floodplain</a></td>
+    </tr>
+    <tr>
+      <td>312</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/312_ArcticWillowActiveFloodplain.html">Arctic Willow Active Floodplain</a></td>
+    </tr>
+    <tr>
+      <td>313</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/313_ArcticDryasWillowEricaceousActiveFloodplain.html">Arctic Dryas (-Willow-Ericaceous) Active Floodplain</a></td>
+    </tr>
+    <tr>
+      <td>314</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/314_ArcticHerbaceousActiveFloodplain.html">Arctic Herbaceous Active Floodplain</a></td>
+    </tr>
+    <tr>
+      <td>315</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/315_ArcticBarrenSparselyVegetatedActiveFloodplain.html">Arctic Barren &amp; Sparsely Vegetated Active Floodplain</a></td>
+    </tr>
+    <tr>
+      <td>316</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/316_ArcticStreamCorridor.html">Arctic Stream Corridor</a></td>
+    </tr>
+    <tr>
+      <td>321</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/321_ArcticWetMeadowMineralRiverine.html">Arctic Wet Meadow (Mineral/Riverine)</a></td>
+    </tr>
+    <tr>
+      <td>322</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/322_ArcticFreshwaterMarsh.html">Arctic Freshwater Marsh</a></td>
+    </tr>
+    <tr>
+      <td>330</td>
+      <td><a href="https://accs.uaa.alaska.edu/files/akveg-types/330_ArcticBarrenSparselyVegetated.html">Arctic Barren &amp; Sparsely Vegetated</a></td>
+    </tr>
+  </tbody>
+</table>
+    <p id="noResults">No matching map classes found.</p>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var searchInput = document.getElementById('searchInput');
+        var rows = Array.from(document.querySelectorAll('table tbody tr'));
+        var matchCount = document.getElementById('matchCount');
+        var noResults = document.getElementById('noResults');
+        var totalRows = rows.length;
+
+        function filterTable() {
+            var query = searchInput.value.trim().toLowerCase();
+            var terms = query ? query.split(/\s+/) : [];
+            var visibleCount = 0;
+
+            rows.forEach(function(row) {
+                var text = row.textContent.toLowerCase();
+                var isMatch = terms.every(function(term) {
+                    return text.includes(term);
+                });
+                row.style.display = isMatch ? '' : 'none';
+                if (isMatch) {
+                    visibleCount++;
+                }
+            });
+
+            matchCount.textContent = 'Showing ' + visibleCount + ' of ' + totalRows + ' types';
+            noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        }
+
+        searchInput.addEventListener('input', filterTable);
+        filterTable();
+    });
+    </script>
+</body>
+</html>

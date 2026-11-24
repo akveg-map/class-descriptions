@@ -1,0 +1,17 @@
+Taxon (Accepted Name),Constancy (%),Mean (Cover %),Std. Dev. (Cover %),15th Percentile (Cover %),85th Percentile (Cover %)
+Hylocomium,93.4,36.9,27.3,10.0,70.0
+Picea mariana,100.0,36.5,15.4,25.0,50.0
+Rhododendron groenlandicum,86.8,15.9,13.6,0.0,30.0
+Cladonia,87.9,11.9,15.3,0.0,29.0
+Vaccinium uliginosum,83.8,10.6,11.2,0.0,20.9
+Empetrum nigrum,82.4,10.3,11.3,0.0,24.7
+Vaccinium vitis-idaea,86.8,10.2,9.4,0.0,20.0
+Pleurozium,31.1,8.0,15.7,0.0,25.0
+Aulacomnium,39.3,5.1,9.0,0.0,15.0
+Arctous rubra,69.1,4.3,6.3,0.0,10.0
+Peltigera,77.6,3.1,5.4,0.0,5.0
+Tomentypnum,41.0,3.1,6.1,0.0,5.0
+Sphagnum,34.4,2.8,6.6,0.0,5.0
+Salix glauca,52.9,2.8,4.3,0.0,8.0
+Rubus chamaemorus,58.8,2.4,4.7,0.0,4.9
+Petasites frigidus,50.0,1.2,2.0,0.0,3.0
